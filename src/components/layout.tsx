@@ -1,10 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link} from "gatsby"
+import { LayoutTypes } from 'src/types/layout'
 
-const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  const isRootPath = location.pathname === rootPath
-  let header
+function Layout({ location, title, children }: LayoutTypes) {
+  // const rootPath = `${__PATH_PREFIX__}/`
+  const rootPath = '/';
+  const isRootPath = location.pathname === rootPath;
+  let header;
 
   if (isRootPath) {
     header = (
@@ -30,7 +32,7 @@ const Layout = ({ location, title, children }) => {
         <a href="https://www.gatsbyjs.com">Gatsby</a>
       </footer>
     </div>
-  )
+  );
 }
 
 export default Layout
