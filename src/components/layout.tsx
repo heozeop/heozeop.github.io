@@ -1,6 +1,6 @@
-import React from "react"
-import { Link} from "gatsby"
-import { LayoutTypes } from 'src/types/layout'
+import React from 'react';
+import { Link } from 'gatsby';
+import { LayoutTypes } from 'src/types/layout';
 
 function Layout({ location, title, children }: LayoutTypes) {
   // const rootPath = `${__PATH_PREFIX__}/`
@@ -13,13 +13,13 @@ function Layout({ location, title, children }: LayoutTypes) {
       <h1 className="main-heading">
         <Link to="/">{title}</Link>
       </h1>
-    )
+    );
   } else {
     header = (
       <Link className="header-link-home" to="/">
         {title}
       </Link>
-    )
+    );
   }
 
   return (
@@ -35,4 +35,4 @@ function Layout({ location, title, children }: LayoutTypes) {
   );
 }
 
-export default Layout
+export default Layout;

@@ -1,0 +1,8 @@
+{
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2020
+  },
+  "extends": ["airbnb", "plugin:react/recommended", "plugin:prettier/recommended"],
+  
+}
