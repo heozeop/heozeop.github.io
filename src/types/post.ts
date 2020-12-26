@@ -7,5 +7,7 @@ export type PostType = {
   fields: {
     slug: string;
   }
+  id: number;
   excerpt: string;
+  html: string;
 };

@@ -10,3 +10,9 @@ export type SiteType = {
     nodes: PostType[];
   }
 }
+
+export interface BlogPostType extends SiteType {
+  markdownRemark: PostType;
+  previous: PostType;
+  next: PostType;
+}
