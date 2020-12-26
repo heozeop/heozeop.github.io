@@ -1,10 +1,11 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { SiteType } from 'src/types/site'
 
-const NotFoundPage = ({ data, location }) => {
+const NotFoundPage = ({ data, location }: PageProps<SiteType>) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
