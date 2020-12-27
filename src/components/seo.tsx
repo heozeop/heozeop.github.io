@@ -10,7 +10,7 @@ import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 import { SEOType } from 'src/types/seo';
 
-const SEO = ({ description = '', lang = 'ko', meta = [], title = '' }: SEOType) => {
+function SEO({ description = '', lang = 'ko', meta = [], title = '' }: SEOType): JSX.Element {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -73,6 +73,6 @@ const SEO = ({ description = '', lang = 'ko', meta = [], title = '' }: SEOType) 
       ].concat(meta)}
     />
   );
-};
+}
 
 export default SEO;

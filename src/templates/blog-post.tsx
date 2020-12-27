@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link, graphql, PageProps } from 'gatsby';
 
+import { BlogPostType } from 'src/types/site';
 import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { BlogPostType } from 'src/types/site';
 
-const BlogPostTemplate = ({ data, location }: PageProps<BlogPostType>) => {
+function BlogPostTemplate({ data, location }: PageProps<BlogPostType>): JSX.Element {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata?.title || `Title`;
   const { previous, next } = data;
@@ -53,7 +53,7 @@ const BlogPostTemplate = ({ data, location }: PageProps<BlogPostType>) => {
       </nav>
     </Layout>
   );
-};
+}
 
 export default BlogPostTemplate;
 

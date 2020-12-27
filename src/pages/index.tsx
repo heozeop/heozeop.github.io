@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link, graphql, PageProps } from 'gatsby';
 
+import { SiteType } from 'src/types/site';
 import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { SiteType } from 'src/types/site';
 
-const BlogIndex = ({ data, location }: PageProps<SiteType>) => {
+function BlogIndex({ data, location }: PageProps<SiteType>): JSX.Element {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
   const posts = data.allMarkdownRemark.nodes;
 
@@ -57,7 +57,7 @@ const BlogIndex = ({ data, location }: PageProps<SiteType>) => {
       </ol>
     </Layout>
   );
-};
+}
 
 export default BlogIndex;
 

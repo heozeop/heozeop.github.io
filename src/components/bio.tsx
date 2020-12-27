@@ -9,7 +9,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Image from 'gatsby-image';
 
-const Bio = () => {
+function Bio(): JSX.Element {
   const data = useStaticQuery(graphql`
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
@@ -54,6 +54,6 @@ const Bio = () => {
       )}
     </div>
   );
-};
+}
 
 export default Bio;

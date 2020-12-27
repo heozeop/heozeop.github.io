@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { LayoutTypes } from 'src/types/layout';
 
-function Layout({ location, title, children }: LayoutTypes) {
+function Layout({ location, title, children }: LayoutTypes): JSX.Element {
   // const rootPath = `${__PATH_PREFIX__}/`
   const rootPath = '/';
   const isRootPath = location.pathname === rootPath;
