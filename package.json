@@ -62,23 +62,24 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "check-types": "tsc",
-    "build": "yarn check-types && gatsby build",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
+    "check-types": "tsc",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|jsx|ts|tsx)\"",
     "format": "yarn prettier --write",
-    "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx ./src",
     "check-format": "yarn prettier -l",
-    "validate": "yarn check-format && yarn lint",
+    "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx ./src",
+    "validate": "yarn check-types && yarn check-format && yarn lint",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "gatsby build && gh-pages -d public -b publish",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "lint-staged": {
-    "src/*.{js, jsx, ts, tsx}": [
-      "yarn prettier --write",
+    "src/**/*.{js, jsx, ts, tsx}": [
+      "yarn validate",
+      "yarn format",
       "git add"
     ]
   }
