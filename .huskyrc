@@ -1,0 +1,9 @@
+
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn validate && yarn build",
+      "pre-push": "yarn validate && yarn build"
+    }
+  }
+}
