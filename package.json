@@ -77,7 +77,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "lint-staged": {
-    "src/**/*.{js, jsx, ts, tsx}": [
+    "src/*.{js, jsx, ts, tsx}": [
       "yarn prettier --write",
       "git add"
     ]
