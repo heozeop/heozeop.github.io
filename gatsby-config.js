@@ -3,7 +3,7 @@ module.exports = {
     title: `heozeop's Way`,
     author: {
       name: `Seung Chan Lee`,
-      summary: `Who will empower people to live`,
+      summary: `Who will empower people to live their own life by themselves.`,
     },
     description: `heozeop's protfolio, blog, road map`,
     siteUrl: `https://heozoep.github.io/`,
@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        // trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
     `gatsby-plugin-feed`,
@@ -71,4 +71,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
