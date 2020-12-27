@@ -78,8 +78,10 @@
   },
   "lint-staged": {
     "src/**/*.+(js|jsx|ts|tsx)": [
+      "git stash --keep-index",
       "yarn format",
-      "git add"
+      "git add",
+      "git stash pop"
     ]
   }
 }
