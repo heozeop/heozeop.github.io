@@ -3,7 +3,7 @@ module.exports = {
     title: `heozeop's Way`,
     author: {
       name: `Seung Chan Lee`,
-      summary: `Who will empower people to live`,
+      summary: `Who will empower people to live their own life by themselves.`,
     },
     description: `heozeop's protfolio, blog, road map`,
     siteUrl: `https://heozoep.github.io/`,
