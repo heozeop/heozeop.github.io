@@ -16,3 +16,5 @@ export interface BlogPostType extends SiteType {
   previous: PostType;
   next: PostType;
 }
+
+console.log(1);
