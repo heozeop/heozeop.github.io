@@ -61,15 +61,15 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "build": "gatsby build",
+    "check-types": "tsc",
+    "build": "yarn check-types && gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "check-types": "tsc",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|jsx|ts|tsx)\"",
     "format": "yarn prettier --write",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx ./src",
     "check-format": "yarn prettier -l",
-    "validate": "yarn check-types && yarn check-format && yarn lint",
+    "validate": "yarn check-format && yarn lint",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "gatsby build && gh-pages -d public -b publish",
