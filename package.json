@@ -78,10 +78,9 @@
   },
   "lint-staged": {
     "src/**/*.+(js|jsx|ts|tsx)": [
-      "git stash push -k -u",
-      "yarn format",
-      "git add",
-      "git stash pop"
+      "prettier --write",
+      "eslint -fix",
+      "git add"
     ]
   }
 }
