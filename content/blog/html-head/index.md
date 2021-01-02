@@ -1,5 +1,5 @@
 ---
-title: HTML he
+title: HTML head 태그
 date: '2021-01-01T15:24:03.284Z'
 description: 'HTML head태그를 알자.'
 ---
@@ -77,6 +77,6 @@ meta data는 흔히 말해 데이터의 정보를 담은 데이터입니다. 간
     `head`태그의 내용은 현재 문서의 meta data입니다. 이 태그 안에는 title, favicon, link, script, meta 태그가 활용되며, 소셜 네트워크 서비스나 검색엔진이 페이지 검색을 할때 활용되는 데이터들이 담깁니다. 
 
 # 다음은?
-1. html body 안에 들어가는 태그 들을 하나씩 살펴볼 것입니다.
+1. text 구성 태그를 간단히 알아볼 예정입니다.
 1. 요새 가장 많은 관심을 가진다는 card형태를 이리 저리 굴려 볼 것입니다.
 1. css가 무엇인지 찾아 볼 예정입니다.
