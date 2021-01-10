@@ -1,5 +1,5 @@
 ---
-title: CSS 기본 컨셉
+title: CSS 규칙 충돌
 date: '2021-01-04T18:01:03.284Z'
 description: 'CSS 규칙 충돌에 대비해서 Inheritance, Specificity, Cascading을 알아봅니다.'
 ---
