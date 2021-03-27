@@ -74,4 +74,5 @@ dist
 # practice file
 content/practice/
 
-**/*.lock
+package-lock.json
+yarn.lock
