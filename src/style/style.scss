@@ -8,7 +8,7 @@
 }
 
 html {
-  height: $minHeight-full;
+  min-height: $minHeight-full;
   line-height: $lineHeight-normal;
   font-size: $fontSize-root;
   -webkit-font-smoothing: antialiased;
@@ -16,6 +16,7 @@ html {
 }
 
 body {
+  min-height: $minHeight-full;
   font-family: $font-body;
   font-size: $fontSize-1;
   color: $color-text;

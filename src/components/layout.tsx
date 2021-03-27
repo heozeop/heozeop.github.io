@@ -1,6 +1,10 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import { LayoutTypes } from 'src/types/layout';
+import React, { ReactNode } from 'react';
+import { Link, PageRendererProps } from 'gatsby';
+
+interface LayoutTypes extends PageRendererProps {
+  title: string;
+  children: ReactNode;
+}
 
 function Layout({ location, title, children }: LayoutTypes): JSX.Element {
   // const rootPath = `${__PATH_PREFIX__}/`
