@@ -73,3 +73,5 @@ dist
 
 # practice file
 content/practice/
+
+**/*.lock
