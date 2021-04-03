@@ -23,7 +23,7 @@ body {
 }
 
 footer {
-  padding: $spacing-6 $spacing-0;
+  padding: var($spacing-6) $spacing-0;
 }
 
 hr {
@@ -118,11 +118,11 @@ ol {
 ul li,
 ol li {
   padding-left: $spacing-0;
-  margin-bottom: calc($spacing-8 / 2);
+  margin-bottom: calc(var($spacing-8) / 2);
 }
 
 li > p {
-  margin-bottom: calc($spacing-8 / 2);
+  margin-bottom: calc(var($spacing-8) / 2);
 }
 
 li *:last-child {
@@ -131,14 +131,14 @@ li *:last-child {
 
 li > ul {
   margin-left: $spacing-8;
-  margin-top: calc($spacing-8 / 2);
+  margin-top: calc(var($spacing-8) / 2);
 }
 
 blockquote {
   color: $color-text-light;
-  margin-left: calc(-1 * $spacing-6);
+  margin-left: calc(-1 * var($spacing-6));
   margin-right: $spacing-8;
-  padding: $spacing-0 $spacing-0 $spacing-0 $spacing-6;
+  padding: $spacing-0 $spacing-0 $spacing-0 var($spacing-6);
   border-left: $spacing-1 solid $color-primary;
   font-size: $fontSize-2;
   font-style: italic;

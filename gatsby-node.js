@@ -4,19 +4,18 @@ const { createFilePath } = require(`gatsby-source-filesystem`);
 const BLOG = 'blog';
 const TIL = 'til';
 const CONTENT = 'content';
+const ALG = 'alg';
 
-exports.createPages = async ({ graphql, actions, reporter }) => {
+function generatePage({ graphql, actions, reporter }) {
   const { createPage } = actions;
+  return async function (template, prefix) {
+    const postTemplate = path.resolve(`./src/templates/${template}-post.tsx`);
 
-  // Define a template for blog post
-  const blogPost = path.resolve(`./src/templates/blog-post.tsx`);
-
-  // Get all markdown blog posts sorted by date
-  const result = await graphql(
-    `
+    const result = await graphql(
+      `
       {
         allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "${CONTENT}/${BLOG}/" } }
+          filter: { fileAbsolutePath: { regex: "${CONTENT}/${prefix}/" } }
           sort: { fields: [frontmatter___date], order: ASC }
           limit: 1000
         ) {
@@ -29,72 +28,40 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
     `
-  );
+    );
 
-  if (result.errors) {
-    reporter.panicOnBuild(`There was an error loading your blog posts`, result.errors);
-    return;
-  }
+    if (result.errors) {
+      reporter.panicOnBuild(`There was an error loading your blog posts`, result.errors);
+      return;
+    }
 
-  const posts = result.data.allMarkdownRemark.nodes;
+    const posts = result.data.allMarkdownRemark.nodes;
 
-  // Create blog posts pages
-  // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
-  // `context` is available in the template as a prop and as a variable in GraphQL
+    if (posts.length > 0) {
+      posts.forEach((post, index) => {
+        const previousPostId = index === 0 ? null : posts[index - 1].id;
+        const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id;
 
-  if (posts.length > 0) {
-    posts.forEach((post, index) => {
-      const previousPostId = index === 0 ? null : posts[index - 1].id;
-      const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id;
-
-      createPage({
-        path: `/${BLOG}${post.fields.slug}`,
-        component: blogPost,
-        context: {
-          id: post.id,
-          previousPostId,
-          nextPostId,
-        },
+        createPage({
+          path: `/${prefix}${post.fields.slug}`,
+          component: postTemplate,
+          context: {
+            id: post.id,
+            previousPostId,
+            nextPostId,
+          },
+        });
       });
-    });
-  }
+    }
+  };
+}
 
-  const TILPost = path.resolve(`./src/templates/til-post.tsx`);
+exports.createPages = async (props) => {
+  const genPage = generatePage(props);
 
-  const resultTIL = await graphql(
-    `
-      {
-        allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "${CONTENT}/${TIL}/" } }
-          sort: { fields: [frontmatter___date], order: ASC }, limit: 1000) {
-          nodes {
-            id
-            fields {
-              slug
-            }
-          }
-        }
-      }
-    `
-  );
-
-  const tils = resultTIL.data.allMarkdownRemark.nodes;
-  if (tils.length > 0) {
-    tils.forEach((post, index) => {
-      const previousPostId = index === 0 ? null : tils[index - 1].id;
-      const nextPostId = index === tils.length - 1 ? null : tils[index + 1].id;
-
-      createPage({
-        path: `/${TIL}${post.fields.slug}`,
-        component: TILPost,
-        context: {
-          id: post.id,
-          previousPostId,
-          nextPostId,
-        },
-      });
-    });
-  }
+  await genPage(BLOG, BLOG);
+  await genPage(BLOG, TIL);
+  await genPage(BLOG, ALG);
 };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

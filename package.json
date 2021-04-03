@@ -1,12 +1,8 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "heozeop-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "homepage":"https://heozeop.github.io/",
   "dependencies": {
     "gatsby": "^3.0.0-next",
     "gatsby-image": "^3.1.0",
@@ -55,15 +51,10 @@
     "prettier": "2.2.1",
     "typescript": "^4.2.3"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
   ],
   "license": "0BSD",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -76,8 +67,7 @@
     "validate": "yarn check-types && yarn check-format && yarn lint",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b publish",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "deploy": "gatsby build && gh-pages -d public -b publish"
   },
   "lint-staged": {
     "src/**/*.+(js|jsx|ts|tsx)": [

@@ -15,6 +15,9 @@ function IndexPage({ data, location }: PageProps<SiteType>): JSX.Element {
       <SEO title="All posts" />
       <ul className="link-card-list">
         <li>
+          <LinkCard title="TO ALG" to={'/alg'} />
+        </li>
+        <li>
           <LinkCard title="TO BLOG" to={'/blog'} />
         </li>
         <li>
