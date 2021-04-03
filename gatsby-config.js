@@ -12,8 +12,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/TIL`,
-        name: `TIL`,
+        path: `${__dirname}/content/til`,
+        name: `til`,
       },
     },
     {

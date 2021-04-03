@@ -1,5 +1,5 @@
 export enum Prefixes {
   BLOG = 'blog',
-  TIL = 'TIL',
+  TIL = 'til',
   CONTENT = 'content',
 }

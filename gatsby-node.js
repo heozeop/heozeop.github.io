@@ -2,7 +2,7 @@ const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
 const BLOG = 'blog';
-const TIL = 'TIL';
+const TIL = 'til';
 const CONTENT = 'content';
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
@@ -48,7 +48,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id;
 
       createPage({
-        path: `/blog${post.fields.slug}`,
+        path: `/${BLOG}${post.fields.slug}`,
         component: blogPost,
         context: {
           id: post.id,
@@ -85,7 +85,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       const nextPostId = index === tils.length - 1 ? null : tils[index + 1].id;
 
       createPage({
-        path: `/TIL${post.fields.slug}`,
+        path: `/${TIL}${post.fields.slug}`,
         component: TILPost,
         context: {
           id: post.id,

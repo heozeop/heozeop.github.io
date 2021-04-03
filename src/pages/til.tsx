@@ -37,7 +37,7 @@ function TILIndex({ data, location }: PageProps<SiteType>): JSX.Element {
               <article className="post-list-item" itemScope itemType="http://schema.org/Article">
                 <header>
                   <h2>
-                    <Link to={post.fields.slug} itemProp="url">
+                    <Link to={`/${Prefixes.TIL}${post.fields.slug}`} itemProp="url">
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
@@ -70,7 +70,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/content/TIL/" } }
+      filter: { fileAbsolutePath: { regex: "/content/til/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       nodes {
