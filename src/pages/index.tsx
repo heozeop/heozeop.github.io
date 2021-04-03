@@ -5,6 +5,7 @@ import { SiteType } from '../shared/site';
 import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import { LinkCard } from '../components/card';
 
 function IndexPage({ data, location }: PageProps<SiteType>): JSX.Element {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
@@ -12,8 +13,8 @@ function IndexPage({ data, location }: PageProps<SiteType>): JSX.Element {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <Link to="/til">TO TIL</Link>
-      <Link to="/blog">TO BLOG</Link>
+      <LinkCard title="TO BLOG" to={'/blog'} />
+      <LinkCard title="TO TIL" to={'/til'} />
       <Bio />
     </Layout>
   );
