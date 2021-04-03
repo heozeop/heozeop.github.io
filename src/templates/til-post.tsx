@@ -7,13 +7,13 @@ import SEO from '../components/seo';
 import { PostType } from '../shared/post';
 import { SiteType } from '../shared/site';
 
-interface BlogPostType extends SiteType {
+interface ITILPost extends SiteType {
   markdownRemark: PostType;
   previous: PostType;
   next: PostType;
 }
 
-function BlogPostTemplate({ data, location }: PageProps<BlogPostType>): JSX.Element {
+function TILPostTemplate({ data, location }: PageProps<ITILPost>): JSX.Element {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata?.title || `Title`;
   const { previous, next } = data;
@@ -62,10 +62,10 @@ function BlogPostTemplate({ data, location }: PageProps<BlogPostType>): JSX.Elem
   );
 }
 
-export default BlogPostTemplate;
+export default TILPostTemplate;
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($id: String!, $previousPostId: String, $nextPostId: String) {
+  query TILPostTemplate($id: String!, $previousPostId: String, $nextPostId: String) {
     site {
       siteMetadata {
         title

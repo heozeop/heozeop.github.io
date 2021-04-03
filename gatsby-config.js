@@ -1,14 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: `heozeop's Way`,
+    title: `Crispy Heozeop`,
     author: {
       name: `Seung Chan Lee`,
       summary: `Who will empower people to live their own life by themselves.`,
     },
-    description: `heozeop's protfolio, blog, road map`,
+    description: `I'm heozeop, the Cirspy!`,
     siteUrl: `https://heozoep.github.io/`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/TIL`,
+        name: `TIL`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,6 +1,10 @@
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
+const BLOG = 'blog';
+const TIL = 'TIL';
+const CONTENT = 'content';
+
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
 
@@ -11,7 +15,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const result = await graphql(
     `
       {
-        allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }, limit: 1000) {
+        allMarkdownRemark(
+          filter: { fileAbsolutePath: { regex: "${CONTENT}/${BLOG}/" } }
+          sort: { fields: [frontmatter___date], order: ASC }
+          limit: 1000
+        ) {
           nodes {
             id
             fields {
@@ -40,8 +48,45 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id;
 
       createPage({
-        path: post.fields.slug,
+        path: `/blog${post.fields.slug}`,
         component: blogPost,
+        context: {
+          id: post.id,
+          previousPostId,
+          nextPostId,
+        },
+      });
+    });
+  }
+
+  const TILPost = path.resolve(`./src/templates/til-post.tsx`);
+
+  const resultTIL = await graphql(
+    `
+      {
+        allMarkdownRemark(
+          filter: { fileAbsolutePath: { regex: "${CONTENT}/${TIL}/" } }
+          sort: { fields: [frontmatter___date], order: ASC }, limit: 1000) {
+          nodes {
+            id
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    `
+  );
+
+  const tils = resultTIL.data.allMarkdownRemark.nodes;
+  if (tils.length > 0) {
+    tils.forEach((post, index) => {
+      const previousPostId = index === 0 ? null : tils[index - 1].id;
+      const nextPostId = index === tils.length - 1 ? null : tils[index + 1].id;
+
+      createPage({
+        path: `/TIL${post.fields.slug}`,
+        component: TILPost,
         context: {
           id: post.id,
           previousPostId,
