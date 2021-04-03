@@ -5,13 +5,16 @@ interface ILinkCard {
   to: string;
   title: string;
 }
+
 export function LinkCard(linkData: ILinkCard, { ...props }) {
   const { to, title } = linkData;
 
   return (
-    <Link to={to}>
-      <h1>{title}</h1>
-      {props.children}
-    </Link>
+    <div className="link-card">
+      <Link to={to}>
+        <h1>{title}</h1>
+        {props.children}
+      </Link>
+    </div>
   );
 }

@@ -59,7 +59,7 @@ h6 {
 h1 {
   font-weight: $fontWeight-black;
   font-size: $fontSize-6;
-  color: $color-heading-black;
+  color: $color-primary;
 }
 
 h2 {
@@ -112,7 +112,6 @@ ol {
   margin-right: $spacing-0;
   padding: $spacing-0;
   margin-bottom: $spacing-8;
-  list-style-position: outside;
   list-style-image: none;
 }
 
@@ -230,7 +229,6 @@ a:focus {
 
 .bio {
   display: flex;
-  // margin-bottom: $spacing-16;
 }
 
 .bio p {

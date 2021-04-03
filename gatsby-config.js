@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Crispy Heozeop`,
+    title: `Heozeop, the Crispy`,
     author: {
       name: `Seung Chan Lee`,
-      summary: `Who will empower people to live their own life by themselves.`,
+      summary: `Who likes definition, description, tutorial.`,
     },
     description: `I'm heozeop, the Cirspy!`,
     siteUrl: `https://heozoep.github.io/`,

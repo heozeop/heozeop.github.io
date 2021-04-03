@@ -13,8 +13,14 @@ function IndexPage({ data, location }: PageProps<SiteType>): JSX.Element {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <LinkCard title="TO BLOG" to={'/blog'} />
-      <LinkCard title="TO TIL" to={'/til'} />
+      <ul className="link-card-list">
+        <li>
+          <LinkCard title="TO BLOG" to={'/blog'} />
+        </li>
+        <li>
+          <LinkCard title="TO TIL" to={'/til'} />
+        </li>
+      </ul>
       <Bio />
     </Layout>
   );
