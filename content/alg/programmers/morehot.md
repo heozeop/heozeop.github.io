@@ -15,6 +15,10 @@ type: 'heap'
 1. 틀려서 보니 공식이 틀렸다.
 1. 앞에 2개 가지고 연산하면 되었다.
 
+# 풀이
+
+<script src="https://gist.github.com/heozeop/43e79d711addba86294bb42bc755b5c3.js"></script>
+
 # 회고
 
 ### 문제점
