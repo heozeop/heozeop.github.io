@@ -3,4 +3,5 @@ export enum Prefixes {
   TIL = 'til',
   CONTENT = 'content',
   ALG = 'alg',
+  BOOK = 'book',
 }

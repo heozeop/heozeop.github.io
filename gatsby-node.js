@@ -5,6 +5,7 @@ const BLOG = 'blog';
 const TIL = 'til';
 const CONTENT = 'content';
 const ALG = 'alg';
+const BOOK = 'book';
 
 function generatePage({ graphql, actions, reporter }) {
   const { createPage } = actions;
@@ -62,6 +63,7 @@ exports.createPages = async (props) => {
   await genPage(BLOG, BLOG);
   await genPage(BLOG, TIL);
   await genPage(BLOG, ALG);
+  await genPage(BLOG, BOOK);
 };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

@@ -7,7 +7,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { Prefixes } from '../shared/enums';
 
-function BlogIndex({ data, location }: PageProps<SiteType>): JSX.Element {
+function BookIndex({ data, location }: PageProps<SiteType>): JSX.Element {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
   const posts = data.allMarkdownRemark.nodes;
 
@@ -37,7 +37,7 @@ function BlogIndex({ data, location }: PageProps<SiteType>): JSX.Element {
               <article className="post-list-item" itemScope itemType="http://schema.org/Article">
                 <header>
                   <h2>
-                    <Link to={`/${Prefixes.BLOG}${post.fields.slug}`} itemProp="url">
+                    <Link to={`/${Prefixes.BOOK}${post.fields.slug}`} itemProp="url">
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
@@ -60,7 +60,7 @@ function BlogIndex({ data, location }: PageProps<SiteType>): JSX.Element {
   );
 }
 
-export default BlogIndex;
+export default BookIndex;
 
 export const pageQuery = graphql`
   query {
@@ -70,7 +70,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/content/blog/" } }
+      filter: { fileAbsolutePath: { regex: "/content\/book/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       nodes {
