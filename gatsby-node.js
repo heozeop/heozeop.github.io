@@ -62,7 +62,7 @@ exports.createPages = async (props) => {
 
   await genPage(BLOG, BLOG);
   await genPage(BLOG, TIL);
-  await genPage(BLOG, ALG);
+  await genPage(ALG, ALG);
   await genPage(BLOG, BOOK);
 };
 

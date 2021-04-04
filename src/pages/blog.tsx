@@ -6,8 +6,9 @@ import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { Prefixes } from '../shared/enums';
+import { PostType } from '../shared/post';
 
-function BlogIndex({ data, location }: PageProps<SiteType>): JSX.Element {
+function BlogIndex({ data, location }: PageProps<SiteType<PostType>>): JSX.Element {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
   const posts = data.allMarkdownRemark.nodes;
 

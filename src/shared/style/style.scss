@@ -102,7 +102,7 @@ p {
   line-height: $lineHeight-relaxed;
   $baseline-multiplier: 0.179;
   $x-height-multiplier: 0.35;
-  margin: $spacing-0 $spacing-0 $spacing-8 $spacing-0;
+  margin: $spacing-0 $spacing-0 $spacing-4 $spacing-0;
   padding: $spacing-0;
 }
 
@@ -230,10 +230,13 @@ a:focus {
 
 .bio {
   display: flex;
+  margin-bottom: $spacing-4;
 }
 
 .bio p {
   margin-bottom: $spacing-0;
+  display: flex;
+  align-items: center;
 }
 
 .bio-avatar {

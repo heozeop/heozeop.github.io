@@ -6,8 +6,9 @@ import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { Prefixes } from '../shared/enums';
+import { PostType } from '../shared/post';
 
-function BookIndex({ data, location }: PageProps<SiteType>): JSX.Element {
+function BookIndex({ data, location }: PageProps<SiteType<PostType>>): JSX.Element {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
   const posts = data.allMarkdownRemark.nodes;
 
@@ -70,7 +71,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/content\/book/" } }
+      filter: { fileAbsolutePath: { regex: "/content/book/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       nodes {

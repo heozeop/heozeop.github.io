@@ -6,8 +6,9 @@ import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { LinkCard } from '../components/card';
+import { PostType } from '../shared/post';
 
-function IndexPage({ data, location }: PageProps<SiteType>): JSX.Element {
+function IndexPage({ data, location }: PageProps<SiteType<PostType>>): JSX.Element {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
 
   return (

@@ -11,3 +11,9 @@ export type PostType = {
   excerpt: string;
   html: string;
 };
+
+export type AlgPostType = PostType & {
+  frontmatter: {
+    type: string;
+  };
+};

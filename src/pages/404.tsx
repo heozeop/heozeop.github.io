@@ -1,11 +1,12 @@
 import React from 'react';
 import { graphql, PageProps } from 'gatsby';
 
-import { SiteType } from 'src/types/site';
+import { SiteType } from '../shared/site';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import { PostType } from '../shared/post';
 
-function NotFoundPage({ data, location }: PageProps<SiteType>): JSX.Element {
+function NotFoundPage({ data, location }: PageProps<SiteType<PostType>>): JSX.Element {
   const siteTitle = data.site.siteMetadata.title;
 
   return (

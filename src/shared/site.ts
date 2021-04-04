@@ -1,12 +1,10 @@
-import { PostType } from './post';
-
-export type SiteType = {
+export type SiteType<T> = {
   site: {
     siteMetadata: {
       title: string;
     };
   };
   allMarkdownRemark: {
-    nodes: PostType[];
+    nodes: T[];
   };
 };

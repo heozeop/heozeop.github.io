@@ -6,8 +6,9 @@ import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { Prefixes } from '../shared/enums';
+import { AlgPostType } from '../shared/post';
 
-function algIndex({ data, location }: PageProps<SiteType>): JSX.Element {
+function algIndex({ data, location }: PageProps<SiteType<AlgPostType>>): JSX.Element {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
   const posts = data.allMarkdownRemark.nodes;
 
@@ -41,7 +42,9 @@ function algIndex({ data, location }: PageProps<SiteType>): JSX.Element {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <small>
+                    {post.frontmatter.type} / {post.frontmatter.date}
+                  </small>
                 </header>
                 <section>
                   <p
@@ -82,6 +85,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          type
         }
       }
     }

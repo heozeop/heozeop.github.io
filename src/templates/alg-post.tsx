@@ -4,16 +4,16 @@ import { Link, graphql, PageProps } from 'gatsby';
 import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { PostType } from '../shared/post';
+import { AlgPostType } from '../shared/post';
 import { SiteType } from '../shared/site';
 
-interface BlogPostType extends SiteType<PostType> {
-  markdownRemark: PostType;
-  previous: PostType;
-  next: PostType;
+interface AlgPostTemplate extends SiteType<AlgPostType> {
+  markdownRemark: AlgPostType;
+  previous: AlgPostType;
+  next: AlgPostType;
 }
 
-function BlogPostTemplate({ data, location }: PageProps<BlogPostType>): JSX.Element {
+function AlgPostTemplate({ data, location }: PageProps<AlgPostTemplate>): JSX.Element {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata?.title || `Title`;
   const { previous, next } = data;
@@ -24,7 +24,9 @@ function BlogPostTemplate({ data, location }: PageProps<BlogPostType>): JSX.Elem
       <article className="blog-post" itemScope itemType="http://schema.org/Article">
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <p>
+            {post.frontmatter.type} / {post.frontmatter.date}
+          </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} itemProp="articleBody" />
         <hr />
@@ -62,10 +64,10 @@ function BlogPostTemplate({ data, location }: PageProps<BlogPostType>): JSX.Elem
   );
 }
 
-export default BlogPostTemplate;
+export default AlgPostTemplate;
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($id: String!, $previousPostId: String, $nextPostId: String) {
+  query AlgPostBySlug($id: String!, $previousPostId: String, $nextPostId: String) {
     site {
       siteMetadata {
         title
@@ -79,6 +81,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        type
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

@@ -7,7 +7,7 @@ import SEO from '../components/seo';
 import { PostType } from '../shared/post';
 import { SiteType } from '../shared/site';
 
-interface ITILPost extends SiteType {
+interface ITILPost extends SiteType<PostType> {
   markdownRemark: PostType;
   previous: PostType;
   next: PostType;
