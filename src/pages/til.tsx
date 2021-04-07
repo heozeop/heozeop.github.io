@@ -28,6 +28,7 @@ function TILIndex({ data, location }: PageProps<SiteType<PostType>>): JSX.Elemen
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
+      <h1>Today I Learned</h1>
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map((post) => {

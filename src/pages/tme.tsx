@@ -28,8 +28,8 @@ function TMEIndex({ data, location }: PageProps<SiteType<PostType>>): JSX.Elemen
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <Bio />
       <h1>Today My Emotion</h1>
+      <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map((post) => {
           const title = post.frontmatter.title || post.fields.slug;

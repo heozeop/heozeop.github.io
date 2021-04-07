@@ -27,6 +27,9 @@ function IndexPage({ data, location }: PageProps<SiteType<PostType>>): JSX.Eleme
         <li>
           <LinkCard title="TO BOOK" to={'/book'} />
         </li>
+        <li>
+          <LinkCard title="TO TME" to={'/tme'} />
+        </li>
       </ul>
       <Bio />
     </Layout>

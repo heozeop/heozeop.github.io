@@ -28,6 +28,7 @@ function algIndex({ data, location }: PageProps<SiteType<AlgPostType>>): JSX.Ele
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
+      <h1>Algorithms</h1>
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map((post) => {
