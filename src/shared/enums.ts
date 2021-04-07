@@ -4,4 +4,5 @@ export enum Prefixes {
   CONTENT = 'content',
   ALG = 'alg',
   BOOK = 'book',
+  TME = 'tme',
 }
