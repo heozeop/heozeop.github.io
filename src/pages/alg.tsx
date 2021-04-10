@@ -15,7 +15,7 @@ function algIndex({ data, location }: PageProps<SiteType<AlgPostType>>): JSX.Ele
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="Algorithm posts" />
         <Bio />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the directory you specified for the
@@ -27,7 +27,7 @@ function algIndex({ data, location }: PageProps<SiteType<AlgPostType>>): JSX.Ele
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="Algorithm posts" />
       <h1>Algorithms</h1>
       <Bio />
       <ol style={{ listStyle: `none` }}>

@@ -15,7 +15,7 @@ function BlogIndex({ data, location }: PageProps<SiteType<PostType>>): JSX.Eleme
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="Blog posts" />
         <Bio />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the directory you specified for the
@@ -27,7 +27,7 @@ function BlogIndex({ data, location }: PageProps<SiteType<PostType>>): JSX.Eleme
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="Blog posts" />
       <h1>Crispy Blog</h1>
       <Bio />
       <ol style={{ listStyle: `none` }}>

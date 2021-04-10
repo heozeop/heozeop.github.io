@@ -15,7 +15,7 @@ function TILIndex({ data, location }: PageProps<SiteType<PostType>>): JSX.Elemen
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="TIL posts" />
         <Bio />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the directory you specified for the
@@ -27,7 +27,7 @@ function TILIndex({ data, location }: PageProps<SiteType<PostType>>): JSX.Elemen
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="TIL posts" />
       <h1>Today I Learned</h1>
       <Bio />
       <ol style={{ listStyle: `none` }}>
