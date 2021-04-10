@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const LinkHeader = styled.div`
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.5); */
 `;
 
 interface ILinkCard {
