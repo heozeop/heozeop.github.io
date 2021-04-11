@@ -34,6 +34,13 @@
 <li>테스트 코드의 비용을 계산할 수 있다.</li>
 <li>필요한 test를 필요할 때 적용할 수 있다.</li>
 </ul>
+<h2>parameterized test</h2>
+<p>jest 등 테스트 자동화 도구에서 인자를 여러개 사용할 수 있도록 만든 테스트 함수다.
+아래는 jest의 parameterized test 예시다. 아래 <code class="language-text">prameters</code>는 <code class="language-text">Array[]</code> 타입이다. 근데 iterable이면 되는 것 같다.</p>
+<div class="gatsby-highlight" data-language="typescript"><pre class="language-typescript"><code class="language-typescript">it<span class="token punctuation">.</span><span class="token function">each</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token operator">...</span>parameters<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token string">'test something'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>each array item<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token function">doSomething</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">expect</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBeTruthy</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
 <h1>readline</h1>
 <p>node js에서 사용가능한 standard input 기능들을 지원해 주는 라이브러리다. 아래와 같이 사용할 수 있다.</p>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> readline <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'readline'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
