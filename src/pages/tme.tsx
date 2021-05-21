@@ -72,7 +72,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/content/tme/" } }
+      filter: { fileAbsolutePath: { regex: "/content/daylog/tme/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       nodes {

@@ -12,13 +12,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/tme`,
-        name: `tme`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         path: `${__dirname}/content/book`,
         name: `book`,
       },
@@ -33,8 +26,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/til`,
+        path: `${__dirname}/content/daylog/til`,
         name: `til`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/daylog/tme`,
+        name: `tme`,
       },
     },
     {
