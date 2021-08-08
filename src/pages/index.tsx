@@ -7,6 +7,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { LinkCard } from '../components/card';
 import { PostType } from '../shared/post';
+import styled from 'styled-components';
 
 function IndexPage({ data, location }: PageProps<SiteType<PostType>>): JSX.Element {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
@@ -14,23 +15,13 @@ function IndexPage({ data, location }: PageProps<SiteType<PostType>>): JSX.Eleme
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <ul className="link-card-list">
-        <li>
-          <LinkCard title="TO ALG" to={'/alg'} />
-        </li>
-        <li>
-          <LinkCard title="TO BLOG" to={'/blog'} />
-        </li>
-        <li>
-          <LinkCard title="TO TIL" to={'/til'} />
-        </li>
-        <li>
-          <LinkCard title="TO BOOK" to={'/book'} />
-        </li>
-        <li>
-          <LinkCard title="TO TME" to={'/tme'} />
-        </li>
-      </ul>
+      <Grid>
+        <LinkCard title="TO ALG" to={'/alg'} />
+        <LinkCard title="TO BLOG" to={'/blog'} />
+        <LinkCard title="TO TIL" to={'/til'} />
+        <LinkCard title="TO BOOK" to={'/book'} />
+        <LinkCard title="TO TME" to={'/tme'} />
+      </Grid>
       <Bio />
     </Layout>
   );
@@ -46,4 +37,9 @@ export const pageQuery = graphql`
       }
     }
   }
+`;
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 `;

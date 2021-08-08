@@ -5,4 +5,5 @@ export enum Prefixes {
   ALG = 'alg',
   BOOK = 'book',
   TME = 'tme',
+  TESTING_LIBRARY = "TESTING_LIBRARY"
 }

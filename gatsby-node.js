@@ -17,7 +17,7 @@ function generatePage({ graphql, actions, reporter }) {
       `
       {
         allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "${CONTENT}/${prefix}/" } }
+          filter: { fileAbsolutePath: { regex: "${prefix}/" } }
           sort: { fields: [frontmatter___date], order: ASC }
           limit: 1000
         ) {
@@ -60,12 +60,15 @@ function generatePage({ graphql, actions, reporter }) {
 
 exports.createPages = async (props) => {
   const genPage = generatePage(props);
-
-  await genPage(BLOG, BLOG);
-  await genPage(BLOG, TIL);
-  await genPage(ALG, ALG);
-  await genPage(BLOG, BOOK);
-  await genPage(BLOG, TME);
+  await Promise.all(
+    [
+      [BLOG, BLOG],
+      [BLOG, TIL],
+      [ALG, ALG],
+      [BLOG, BOOK],
+      [BLOG, TME],
+    ].map(([template, prefix]) => genPage(template, prefix))
+  );
 };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
