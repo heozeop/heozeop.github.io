@@ -1,7 +1,0 @@
-{
-  "hooks": {
-    "pre-commit": "lint-staged",
-    "pre-push": "lint-staged && yarn build",
-    "post-push": "yarn deploy",
-  }
-}
