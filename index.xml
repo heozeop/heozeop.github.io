@@ -20,12 +20,21 @@
     </item>
     
     <item>
-      <title>CSS, What is that?</title>
+      <title>CSS 기본 컨셉과 규칙 충돌</title>
+      <link>https://heozeop.github.io/post/css-basic-concept/</link>
+      <pubDate>Mon, 04 Jan 2021 18:01:03 +0000</pubDate>
+      
+      <guid>https://heozeop.github.io/post/css-basic-concept/</guid>
+      <description>CSS 규칙 충돌에 대비해서 Inheritance, Specificity, Cascading을 알아봅니다.</description>
+    </item>
+    
+    <item>
+      <title>CSS? 그게 뭔데?</title>
       <link>https://heozeop.github.io/post/css-what-is-that/</link>
       <pubDate>Sun, 03 Jan 2021 23:01:03 +0000</pubDate>
       
       <guid>https://heozeop.github.io/post/css-what-is-that/</guid>
-      <description>css그게 뭔데</description>
+      <description>css의 정의를 알아봅니다.</description>
     </item>
     
   </channel>
