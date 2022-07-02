@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>bundle-size on Crispy bLog</title>
+    <link>https://heozeop.github.io/tags/bundle-size/</link>
+    <description>Recent content in bundle-size on Crispy bLog</description>
+    <image>
+      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 03 Jan 2021 13:45:03 +0000</lastBuildDate><atom:link href="https://heozeop.github.io/tags/bundle-size/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>사이트 로딩속도가 이 번들때문에 느려요.</title>
+      <link>https://heozeop.github.io/post/too-big-bundle-size/</link>
+      <pubDate>Sun, 03 Jan 2021 13:45:03 +0000</pubDate>
+      
+      <guid>https://heozeop.github.io/post/too-big-bundle-size/</guid>
+      <description>초보 개발자의 살떨렸던 3시간</description>
+    </item>
+    
+  </channel>
+</rss>
