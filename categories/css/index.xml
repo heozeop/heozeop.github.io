@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Crispy bLog</title>
-    <link>https://heozeop.github.io/post/</link>
-    <description>Recent content in Posts on Crispy bLog</description>
+    <title>css on Crispy bLog</title>
+    <link>https://heozeop.github.io/categories/css/</link>
+    <description>Recent content in css on Crispy bLog</description>
     <image>
       <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Aug 2021 21:16:03 +0000</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>오픈소스에 PR 해본 썰</title>
-      <link>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</link>
-      <pubDate>Tue, 10 Aug 2021 21:16:03 +0000</pubDate>
-      
-      <guid>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</guid>
-      <description>DefinitelyTyped에 라이브러리 타입을 올려보고, chakra ui에 pr을 올리며(아직 진행 중) 느낀점을 간단히 소개합니다.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 04 Jan 2021 18:01:03 +0000</lastBuildDate><atom:link href="https://heozeop.github.io/categories/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS 기본 컨셉과 규칙 충돌</title>
       <link>https://heozeop.github.io/post/css-basic-concept/</link>
@@ -35,15 +26,6 @@
       
       <guid>https://heozeop.github.io/post/css-what-is-that/</guid>
       <description>css의 정의를 알아봅니다.</description>
-    </item>
-    
-    <item>
-      <title>HTML?</title>
-      <link>https://heozeop.github.io/post/html-definition/</link>
-      <pubDate>Wed, 30 Dec 2020 22:12:03 +0000</pubDate>
-      
-      <guid>https://heozeop.github.io/post/html-definition/</guid>
-      <description>html의 정의와 기본 속성.</description>
     </item>
     
   </channel>
