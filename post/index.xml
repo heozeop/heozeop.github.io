@@ -38,7 +38,25 @@
     </item>
     
     <item>
-      <title>HTML?</title>
+      <title>HTML body?</title>
+      <link>https://heozeop.github.io/post/html-body/</link>
+      <pubDate>Sat, 02 Jan 2021 15:01:03 +0000</pubDate>
+      
+      <guid>https://heozeop.github.io/post/html-body/</guid>
+      <description>html의 body를 알자.</description>
+    </item>
+    
+    <item>
+      <title>HTML head? 뭐더라...?</title>
+      <link>https://heozeop.github.io/post/html-head/</link>
+      <pubDate>Fri, 01 Jan 2021 15:24:03 +0000</pubDate>
+      
+      <guid>https://heozeop.github.io/post/html-head/</guid>
+      <description>HTML head태그를 알자.</description>
+    </item>
+    
+    <item>
+      <title>HTML? 설명해보자.</title>
       <link>https://heozeop.github.io/post/html-definition/</link>
       <pubDate>Wed, 30 Dec 2020 22:12:03 +0000</pubDate>
       
