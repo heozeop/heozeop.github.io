@@ -19,5 +19,14 @@
       <description>DefinitelyTyped에 라이브러리 타입을 올려보고, chakra ui에 pr을 올리며(아직 진행 중) 느낀점을 간단히 소개합니다.</description>
     </item>
     
+    <item>
+      <title>CSS, What is that?</title>
+      <link>https://heozeop.github.io/post/css-what-is-that/</link>
+      <pubDate>Sun, 03 Jan 2021 23:01:03 +0000</pubDate>
+      
+      <guid>https://heozeop.github.io/post/css-what-is-that/</guid>
+      <description>css그게 뭔데</description>
+    </item>
+    
   </channel>
 </rss>
