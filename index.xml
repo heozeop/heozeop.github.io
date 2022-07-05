@@ -9,9 +9,31 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Aug 2021 21:16:03 +0000</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jul 2022 20:31:56 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>오픈소스에 PR 해본 썰</title>
+      <title>[OS] 운영체제 모드</title>
+      <link>https://heozeop.github.io/post/os-mode/</link>
+      <pubDate>Tue, 05 Jul 2022 20:31:56 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/os-mode/</guid>
+      <description>운영체제의 모드와 시스템 콜 정의 시스템 콜 유저 프로그램이 커널의 서비스를 받기 위해 사용하는 인터페이스
+커널 모드 모든 자원에 접근, 명령이 가능한 모드
+유저 모드 유저가 접근 가능한 영역, 제한적인 자원 접근을 허용
+필요성 보안 유저 프로그램은 다양한 목적에서 만들어 질 수 있습니다. 저장된 데이터를 마음대로 삭제하기도 하고, 웹캠을 마음대로 키고 끌 수도 있습니다. 이런 상황을 최대한 막기위해서 커널 모드와 유저 모드를 구분합니다.
+구현 modebit 유저 모드와 커널모드를 구분하는 플래그 값</description>
+    </item>
+    
+    <item>
+      <title>[OS] 운영체제란?</title>
+      <link>https://heozeop.github.io/post/role-of-operating-system/</link>
+      <pubDate>Sun, 03 Jul 2022 21:17:44 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/role-of-operating-system/</guid>
+      <description>운영체제의 정의와 역할을 알아봅니다.</description>
+    </item>
+    
+    <item>
+      <title>[경험] 오픈소스에 PR 해본 썰</title>
       <link>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</link>
       <pubDate>Tue, 10 Aug 2021 21:16:03 +0000</pubDate>
       
@@ -20,7 +42,7 @@
     </item>
     
     <item>
-      <title>CSS 기본 컨셉과 규칙 충돌</title>
+      <title>[CSS] CSS 기본 컨셉과 규칙 충돌</title>
       <link>https://heozeop.github.io/post/css-basic-concept/</link>
       <pubDate>Mon, 04 Jan 2021 18:01:03 +0000</pubDate>
       
@@ -29,7 +51,7 @@
     </item>
     
     <item>
-      <title>CSS? 그게 뭔데?</title>
+      <title>[CSS] CSS? 그게 뭔데?</title>
       <link>https://heozeop.github.io/post/css-what-is-that/</link>
       <pubDate>Sun, 03 Jan 2021 23:01:03 +0000</pubDate>
       
@@ -38,7 +60,7 @@
     </item>
     
     <item>
-      <title>사이트 로딩속도가 이 번들때문에 느려요.</title>
+      <title>[경험] 사이트 로딩속도가 이 번들때문에 느려요!</title>
       <link>https://heozeop.github.io/post/too-big-bundle-size/</link>
       <pubDate>Sun, 03 Jan 2021 13:45:03 +0000</pubDate>
       
@@ -47,7 +69,7 @@
     </item>
     
     <item>
-      <title>HTML body?</title>
+      <title>[HTML] HTML body?</title>
       <link>https://heozeop.github.io/post/html-body/</link>
       <pubDate>Sat, 02 Jan 2021 15:01:03 +0000</pubDate>
       
@@ -56,7 +78,7 @@
     </item>
     
     <item>
-      <title>HTML head? 뭐더라...?</title>
+      <title>[HTML] HTML head? 뭐더라...?</title>
       <link>https://heozeop.github.io/post/html-head/</link>
       <pubDate>Fri, 01 Jan 2021 15:24:03 +0000</pubDate>
       
@@ -65,7 +87,7 @@
     </item>
     
     <item>
-      <title>HTML? 설명해보자.</title>
+      <title>[HTML] HTML? 설명해보자</title>
       <link>https://heozeop.github.io/post/html-definition/</link>
       <pubDate>Wed, 30 Dec 2020 22:12:03 +0000</pubDate>
       
