@@ -2,34 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://heozeop.github.io/post/os-mode/</loc>
-    <lastmod>2022-07-05T20:31:56+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/categories/</loc>
-    <lastmod>2022-07-05T20:31:56+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/</loc>
-    <lastmod>2022-07-05T20:31:56+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/tags/mode/</loc>
-    <lastmod>2022-07-05T20:31:56+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/tags/operating-system/</loc>
-    <lastmod>2022-07-05T20:31:56+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/categories/os/</loc>
-    <lastmod>2022-07-05T20:31:56+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/post/</loc>
-    <lastmod>2022-07-05T20:31:56+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/tags/</loc>
-    <lastmod>2022-07-05T20:31:56+09:00</lastmod>
-  </url><url>
     <loc>https://heozeop.github.io/post/role-of-operating-system/</loc>
     <lastmod>2022-07-03T21:17:44+09:00</lastmod>
   </url><url>
+    <loc>https://heozeop.github.io/categories/</loc>
+    <lastmod>2022-07-03T21:17:44+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/</loc>
+    <lastmod>2022-07-03T21:17:44+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/tags/operating-system/</loc>
+    <lastmod>2022-07-03T21:17:44+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/categories/os/</loc>
+    <lastmod>2022-07-03T21:17:44+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/post/</loc>
+    <lastmod>2022-07-03T21:17:44+09:00</lastmod>
+  </url><url>
     <loc>https://heozeop.github.io/tags/role/</loc>
+    <lastmod>2022-07-03T21:17:44+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/tags/</loc>
     <lastmod>2022-07-03T21:17:44+09:00</lastmod>
   </url><url>
     <loc>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</loc>
