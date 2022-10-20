@@ -9,17 +9,31 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Oct 2022 16:13:21 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Oct 2022 22:31:04 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>의식적으로 쓰기 - 선언과 단언</title>
+      <link>https://heozeop.github.io/post/typescript-type-assignment/</link>
+      <pubDate>Wed, 19 Oct 2022 22:31:04 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/typescript-type-assignment/</guid>
+      <description>들어가며 Typescript에선 변수에 type을 어떻게 할당하나요?
+여러분이 위와 같은 질문을 받았다면, 어떻게 답변하시겠어요? 저는 Effective Typescript라는 책을 읽으면서, 이 질문을 생각하고 순간 멍해짐을 느꼈습니다. 제겐 너무나도 당연스러운 말인 변수에 type을 할당하는 문장을 풀어서 설명하려니, 적절한 문장이 떠오르지 않았습니다. Typescript에서 변수에 type을 할당하는 것은 도대체 어떤 의미일까요?
+변수에 type을 할당한다? 저는 변수에 type을 할당한다는 것에 영향을 받는 부분에 집중했습니다. 그래서 변수에 type을 할당한다는 말을 아래와 같이 해석해 보았습니다. 결국 할당으로 영향을 받는 것이 Typescript compiler이기 때문입니다.</description>
+    </item>
+    
     <item>
       <title>[개발/RPC] 무에서 gRPC개념 쌓기</title>
       <link>https://heozeop.github.io/post/overviewing-grpc-concepts/</link>
       <pubDate>Sun, 16 Oct 2022 16:13:21 +0900</pubDate>
       
       <guid>https://heozeop.github.io/post/overviewing-grpc-concepts/</guid>
-      <description>!주의! 뜬구름 잡는 소리를 할 수 있습니다. 댓글 주시면 반영할 수 있도록 하겠습니다.
-RPC가 뭐여 정의 Remote Procedure Call의 약자로, 외부 procedure를 실행하는 것
+      <description>notice
+뜬구름 잡는 소리를 할 수 있습니다. 댓글 주시면 반영할 수 있도록 하겠습니다.
+반말과 충청도 사투리가 섞여 있습니다. 읽기 어려우신 부분 알려주세요!
+update log
+2022.10.17 - gRPC는 HTTP/2를 사용하므로, TCP에 기반합니다. RPC가 뭐여 정의 Remote Procedure Call의 약자로, 외부 procedure를 실행하는 것
 어서 도냐 grpc가 http2를 쓴댜
-→ UDP를 4계층으로 쓰고, 그 위에서 돌아가는 걸거여
+→ TCP를 4계층으로 쓰고, 그 위에서 돌아가는 걸거여
 → 그럼 application 계층인건가
 장점 IPC 등의 작업 없이 일단 실행시키는 것 가능 서로 다른 언어에서 rpc 통신 방법만 맞추면, 통신 가능 단점 보안 문제가 있을 수 있음 응답이 비동기임 proto buffer는 또 뭐여 정의 google에서 만든 rpc 통신 규약으로, 강력한 message의 정의를 통해서 일관된 데이터 구조로 소통 가능</description>
     </item>

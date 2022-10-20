@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>TypeScript on Crispy bLog</title>
-    <link>https://heozeop.github.io/tags/typescript/</link>
-    <description>Recent content in TypeScript on Crispy bLog</description>
+    <title>type assignment on Crispy bLog</title>
+    <link>https://heozeop.github.io/tags/type-assignment/</link>
+    <description>Recent content in type assignment on Crispy bLog</description>
     <image>
       <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 19 Oct 2022 22:31:04 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Oct 2022 22:31:04 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/type-assignment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>의식적으로 쓰기 - 선언과 단언</title>
       <link>https://heozeop.github.io/post/typescript-type-assignment/</link>
@@ -19,15 +19,6 @@
       <description>들어가며 Typescript에선 변수에 type을 어떻게 할당하나요?
 여러분이 위와 같은 질문을 받았다면, 어떻게 답변하시겠어요? 저는 Effective Typescript라는 책을 읽으면서, 이 질문을 생각하고 순간 멍해짐을 느꼈습니다. 제겐 너무나도 당연스러운 말인 변수에 type을 할당하는 문장을 풀어서 설명하려니, 적절한 문장이 떠오르지 않았습니다. Typescript에서 변수에 type을 할당하는 것은 도대체 어떤 의미일까요?
 변수에 type을 할당한다? 저는 변수에 type을 할당한다는 것에 영향을 받는 부분에 집중했습니다. 그래서 변수에 type을 할당한다는 말을 아래와 같이 해석해 보았습니다. 결국 할당으로 영향을 받는 것이 Typescript compiler이기 때문입니다.</description>
-    </item>
-    
-    <item>
-      <title>[경험] 오픈소스에 PR 해본 썰</title>
-      <link>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</link>
-      <pubDate>Tue, 10 Aug 2021 21:16:03 +0000</pubDate>
-      
-      <guid>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</guid>
-      <description>DefinitelyTyped에 라이브러리 타입을 올려보고, chakra ui에 pr을 올리며(아직 진행 중) 느낀점을 간단히 소개합니다.</description>
     </item>
     
   </channel>

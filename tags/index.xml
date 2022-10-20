@@ -9,7 +9,34 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Oct 2022 16:13:21 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Oct 2022 22:31:04 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>conscious</title>
+      <link>https://heozeop.github.io/tags/conscious/</link>
+      <pubDate>Wed, 19 Oct 2022 22:31:04 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/tags/conscious/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>type assignment</title>
+      <link>https://heozeop.github.io/tags/type-assignment/</link>
+      <pubDate>Wed, 19 Oct 2022 22:31:04 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/tags/type-assignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TypeScript</title>
+      <link>https://heozeop.github.io/tags/typescript/</link>
+      <pubDate>Wed, 19 Oct 2022 22:31:04 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>gRPC</title>
       <link>https://heozeop.github.io/tags/grpc/</link>
@@ -70,15 +97,6 @@
       <pubDate>Tue, 10 Aug 2021 21:16:03 +0000</pubDate>
       
       <guid>https://heozeop.github.io/tags/opensource/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TypeScript</title>
-      <link>https://heozeop.github.io/tags/typescript/</link>
-      <pubDate>Tue, 10 Aug 2021 21:16:03 +0000</pubDate>
-      
-      <guid>https://heozeop.github.io/tags/typescript/</guid>
       <description></description>
     </item>
     
