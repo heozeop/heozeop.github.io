@@ -9,7 +9,16 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Aug 2021 21:16:03 +0000</lastBuildDate><atom:link href="https://heozeop.github.io/categories/experience/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Oct 2022 21:31:00 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[경험/에러] 시스템에 불이 확, 나는 왁</title>
+      <link>https://heozeop.github.io/post/when-fire-on-the-external-system/</link>
+      <pubDate>Fri, 28 Oct 2022 21:31:00 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/when-fire-on-the-external-system/</guid>
+      <description>아쉬운 에러 대응 과정을 기록해 봅니다.</description>
+    </item>
+    
     <item>
       <title>[경험] 오픈소스에 PR 해본 썰</title>
       <link>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</link>
