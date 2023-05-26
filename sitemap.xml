@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://heozeop.github.io/post/algorithm-boj-1107/</loc>
+    <lastmod>2023-05-26T05:12:05+09:00</lastmod>
+  </url><url>
     <loc>https://heozeop.github.io/tags/1107/</loc>
     <lastmod>2023-05-26T05:12:05+09:00</lastmod>
   </url><url>
     <loc>https://heozeop.github.io/categories/algorithm/</loc>
-    <lastmod>2023-05-26T05:12:05+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/post/algorithm-boj-1107/</loc>
     <lastmod>2023-05-26T05:12:05+09:00</lastmod>
   </url><url>
     <loc>https://heozeop.github.io/tags/bruteforce/</loc>
