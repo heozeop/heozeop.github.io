@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>thread on Crispy bLog</title>
+    <link>https://heozeop.github.io/tags/thread/</link>
+    <description>Recent content in thread on Crispy bLog</description>
+    <image>
+      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 05 Jul 2022 20:56:43 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/thread/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[OS] 프로세스 VS 스레드</title>
+      <link>https://heozeop.github.io/post/os-process-versus-thread/</link>
+      <pubDate>Tue, 05 Jul 2022 20:56:43 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/os-process-versus-thread/</guid>
+      <description>프로세스 VS 스레드 요약 프로세스 정의 프로그램으로부터 인스턴스화 된 것
+운영체제가 관리하는 작업이라는 용어와 동의어로 쓰인다고 합니다.1 상태 스레드 참조 1: 주홍철, 면접을 위한 CS 전공지식 노트 </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DDD on Crispy bLog</title>
+    <link>https://heozeop.github.io/tags/ddd/</link>
+    <description>Recent content in DDD on Crispy bLog</description>
+    <image>
+      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Jul 2022 20:00:30 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/ddd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[책/개발] 도메인 주도 개발 시작하기</title>
+      <link>https://heozeop.github.io/post/book-start-ddd/</link>
+      <pubDate>Sat, 23 Jul 2022 20:00:30 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/book-start-ddd/</guid>
+      <description>요약 생각/느낀점 해본적없는 JPA로 개발할 수 있을 것 같은 기분 DDD를 실서비스에 적용하면 개발이 재미있을 것 같다. 강한 타입인 언어에서는 도입이 비교적 쉽겠다. 생긴 고민 </description>
+    </item>
+    
+  </channel>
+</rss>

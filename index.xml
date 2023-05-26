@@ -9,7 +9,19 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 30 Oct 2022 20:49:13 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 May 2023 05:12:05 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm Boj 1107</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-1107/</link>
+      <pubDate>Fri, 26 May 2023 05:12:05 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-1107/</guid>
+      <description>TL;DR
+GOLD4 문제 왜틀리지 시전 틀린 케이스를 찾아버리고야 말테다 그렇구나. 정확한 사고로 풀어야 겠다 오늘의 문제 뭔일인가. 논리적인 접근 위 문제는 특정한 값 위나 아래로 접근하며 가장 빠르게 도달하는 경우의 수를 구하는 문제입니다. 이러한 특성에 근거해, 목표로 하는 값의 2배로 접근시 충분히 원하는 결과를 얻을 것이라고 생각했습니다.
+2번째 제출 까지는 말이죠
+틀린답 using namespace std; vector&amp;lt;int&amp;gt; allowed; int targetChannel; int visited[1000001]; int m; int count(int); // 특정 지점으로 가는데까지 버튼 누르는 수 계산 void findCombinations(int, vector&amp;lt;int&amp;gt;&amp;amp;); // 1~제한까지 숫자 조합 생성 void input(); void solve(); int main(void) { input(); solve(); return 0; } void input() { cin &amp;gt;&amp;gt; targetChannel &amp;gt;&amp;gt; m; int temp; set&amp;lt;int&amp;gt; blocked; for(int i = 0; i &amp;lt; m; ++i) { cin &amp;gt;&amp;gt; temp; blocked.</description>
+    </item>
+    
     <item>
       <title>[책] &#39;기억, 꿈, 사상&#39;에 대한 감상</title>
       <link>https://heozeop.github.io/post/book-memories-dreams-reflections/</link>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>raspberry pi on Crispy bLog</title>
+    <link>https://heozeop.github.io/tags/raspberry-pi/</link>
+    <description>Recent content in raspberry pi on Crispy bLog</description>
+    <image>
+      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 08 Jul 2022 22:35:34 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[라파이] 라즈베리파이4 우분투 설치하기 - 22.0.4 server</title>
+      <link>https://heozeop.github.io/post/rasberry-install-ubuntu/</link>
+      <pubDate>Fri, 08 Jul 2022 22:35:34 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/rasberry-install-ubuntu/</guid>
+      <description>우분투 다운 받기 저는 아래에서 서버 이미지를 다운 받았습니다. 제가 받은 버전은 22.0.4 LTS 서버 버전입니다.
+https://ubuntu.com/download/raspberry-pi 참조 루딘이, 라즈베리파이 4 우분투 설치하기(Install Ubuntu on Raspberry Pi) 공식 홈페이지, How to install Ubuntu Server on Raspberry Pi TMI 라파이 산 동기 참여하던 스터디(이미 터진)에서 쿠버네티스 엔진을 사용했습니다. 처음에는 가벼운 마음으로 GKE를 사용했는데, 점점 가볍지 않게 되었습니다. 하여 좀 더 많은 실험, 공부, 테스트를 하려고 라파이를 구매했습니다.
+우분투를 까는 이유 위에서 언급한 스터디에서 우분투를 추천해 주었습니다.</description>
+    </item>
+    
+  </channel>
+</rss>
