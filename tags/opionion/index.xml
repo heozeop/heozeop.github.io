@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>opionion on Crispy bLog</title>
+    <link>https://heozeop.github.io/tags/opionion/</link>
+    <description>Recent content in opionion on Crispy bLog</description>
+    <image>
+      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 20 Jun 2023 16:10:35 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/opionion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>좋은 코드와 나쁜 코드</title>
+      <link>https://heozeop.github.io/post/book-good-code-bad-code/</link>
+      <pubDate>Tue, 20 Jun 2023 16:10:35 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/book-good-code-bad-code/</guid>
+      <description>품질의 정의와 좋다 나쁘다를 생각하기</description>
+    </item>
+    
+  </channel>
+</rss>

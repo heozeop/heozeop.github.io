@@ -9,7 +9,16 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 May 2023 05:12:05 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jun 2023 16:10:35 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>좋은 코드와 나쁜 코드</title>
+      <link>https://heozeop.github.io/post/book-good-code-bad-code/</link>
+      <pubDate>Tue, 20 Jun 2023 16:10:35 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/book-good-code-bad-code/</guid>
+      <description>품질의 정의와 좋다 나쁘다를 생각하기</description>
+    </item>
+    
     <item>
       <title>[알고리즘] Algorithm Boj 1107</title>
       <link>https://heozeop.github.io/post/algorithm-boj-1107/</link>

@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://heozeop.github.io/categories/book/</loc>
+    <lastmod>2023-06-20T16:10:35+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/categories/</loc>
+    <lastmod>2023-06-20T16:10:35+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/</loc>
+    <lastmod>2023-06-20T16:10:35+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/tags/opionion/</loc>
+    <lastmod>2023-06-20T16:10:35+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/post/</loc>
+    <lastmod>2023-06-20T16:10:35+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/tags/</loc>
+    <lastmod>2023-06-20T16:10:35+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/post/book-good-code-bad-code/</loc>
+    <lastmod>2023-06-20T16:10:35+09:00</lastmod>
+  </url><url>
     <loc>https://heozeop.github.io/post/algorithm-boj-1107/</loc>
     <lastmod>2023-05-26T05:12:05+09:00</lastmod>
   </url><url>
@@ -14,22 +35,7 @@
     <loc>https://heozeop.github.io/tags/bruteforce/</loc>
     <lastmod>2023-05-26T05:12:05+09:00</lastmod>
   </url><url>
-    <loc>https://heozeop.github.io/categories/</loc>
-    <lastmod>2023-05-26T05:12:05+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/</loc>
-    <lastmod>2023-05-26T05:12:05+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/post/</loc>
-    <lastmod>2023-05-26T05:12:05+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/tags/</loc>
-    <lastmod>2023-05-26T05:12:05+09:00</lastmod>
-  </url><url>
     <loc>https://heozeop.github.io/post/book-memories-dreams-reflections/</loc>
-    <lastmod>2022-10-30T20:49:13+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/categories/book/</loc>
     <lastmod>2022-10-30T20:49:13+09:00</lastmod>
   </url><url>
     <loc>https://heozeop.github.io/tags/not-dev/</loc>
