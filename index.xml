@@ -9,20 +9,7 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Aug 2023 20:58:14 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2018 chrome browser 동작 글 읽고</title>
-      <link>https://heozeop.github.io/post/2018-chrome/</link>
-      <pubDate>Tue, 15 Aug 2023 20:58:14 +0900</pubDate>
-      
-      <guid>https://heozeop.github.io/post/2018-chrome/</guid>
-      <description>각 소제목에 해당하는 글을 읽고 정리한 내용입니다.
-1. chrome browser의 architecture https://developer.chrome.com/blog/inside-browser-part1/
-browser가 선택하는 architecture tab별로 여러 process로 나눠서 실행하는 것 한 process가 다 처리하는거 process 종류 browser: ui, data fetching, ui, renderer: 그리기, service worker plugin: plugin gpu: 다른 processe들의 gpu task chrome은? browser process에 대해서 servicification이라는 개념을 도입한다.
-→ computing 자원이 풍부한 환경이라고 판단되면 browser process의 동작들을 process 여러 개로 할당하고
-아니면 같은 하나의 process가 여러 동작을 하도록 설정하는 것</description>
-    </item>
-    
+    <lastBuildDate>Thu, 06 Jul 2023 21:36:00 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[NestJS] 스웨거에 BasicAuth 더하기, feat fastify,GCP</title>
       <link>https://heozeop.github.io/post/nestjs-basic-auth-fastify/</link>
