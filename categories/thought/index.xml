@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>thought on Crispy bLog</title>
+    <link>https://heozeop.github.io/categories/thought/</link>
+    <description>Recent content in thought on Crispy bLog</description>
+    <image>
+      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 30 Aug 2023 21:59:51 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/thought/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>어떤 개발자가 되고 싶은지에 관한 고찰</title>
+      <link>https://heozeop.github.io/post/i-wanna-be/</link>
+      <pubDate>Wed, 30 Aug 2023 21:59:51 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/i-wanna-be/</guid>
+      <description>TL;DR 상상해 보았습니다. 5년 뒤를 상상해 보았습니다. 3년 뒤를 상상해 보았습니다. 1년 뒤를 상상해 보았습니다. 저는 이런 개발자가 되고 싶은가 봅니다. 고민해 보았습니다. 최근 CTO님과 면담하며 질문을 받았습니다. &amp;lsquo;승찬님은 어떤 개발자가 되고 싶나요?&amp;rsquo; 항상 머리 복잡하다며 넘겨왔던 질문이기에 모른척을 하였습니다. 이제 저도 연차로 4년차가 됩니다. 하지만 아직 &amp;lsquo;되고 싶은 개발자&amp;rsquo;는 커녕 &amp;lsquo;어떤 공부를 할지&amp;rsquo; 조차 스스로 정하지 못했습니다. 집에 와서 심란한 마음에 더 이상은 이럴 수 없다고 생각했습니다. 혼자 끙끙 앓아봐야 소용없다고 판단해, 고민을 공유해 봅니다.</description>
+    </item>
+    
+  </channel>
+</rss>
