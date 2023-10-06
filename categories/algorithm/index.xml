@@ -9,7 +9,25 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 May 2023 05:12:05 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Oct 2023 19:53:38 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boj 14888</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-14888/</link>
+      <pubDate>Fri, 06 Oct 2023 19:53:38 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-14888/</guid>
+      <description>주요 로직 계속 계산하면서 큰값과 작은 값으로 비교한다. 전체 다 돌아야 하며, O(4n)이다. -10억 ~ 10억이므로 int 범위에서 된다. 예상하지 못한 것 음수가 나오는 경우, 나눗셈 연산을 할때 몫을 잘 구해야한다. 음수가 -10억까지 되는데 범위를 잘못 찍었다. code 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 n = int(input()) nums = list(map(int, input().</description>
+    </item>
+    
+    <item>
+      <title>Boj 2661</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-2661/</link>
+      <pubDate>Thu, 05 Oct 2023 18:31:38 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-2661/</guid>
+      <description>주요 로직을 생각해 보자. 끝에 하나 붙을때 마다 점검해준다. 코드 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 n = int(input()) s=[] def isBadSequence(addStr): temp = &amp;#34;&amp;#34;.join(s) + addStr for i in range(1, len(temp) // 2 + 1): if temp[-2 * i : -1 * i] == temp[-1 * i :]: return True return False def dfs(): global s if len(s) == n: print(&amp;#34;&amp;#34;.</description>
+    </item>
+    
     <item>
       <title>[알고리즘] Algorithm Boj 1107</title>
       <link>https://heozeop.github.io/post/algorithm-boj-1107/</link>
