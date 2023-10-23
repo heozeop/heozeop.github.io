@@ -9,7 +9,21 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 23 Oct 2023 21:43:03 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Oct 2023 22:07:43 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm Boj 14502</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-14502/</link>
+      <pubDate>Mon, 23 Oct 2023 22:07:43 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-14502/</guid>
+      <description>문제 연구소 접근 방법을 생각해보자. 방법 1: 생각나는 것: ~47분 바이러스 위치 확인하기
+빈칸 위치 확인하기
+빈칸 nC3 으로 위치뽑기
+바이러스 위치 기준으로 돌면서 dfs로 맵 채우기 전체 - 바이러스 - 벽수로 빈값 구하기 빈값 크기 비교 하기 (n * m)C3 * (n * m) =&amp;gt; 약 266만
+구현
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 directions = [ [0,1], [0,-1], [1,0], [-1, 0] ] def dfs(x,y, visited): global n,m, lab_map; for i in range(4): nx = x + directions[i][0] ny = y + directions[i][1] if nx &amp;lt; 0 or ny &amp;lt; 0 or nx &amp;gt;= n or ny &amp;gt;= m: continue if lab_map[nx][ny] !</description>
+    </item>
+    
     <item>
       <title>Algorithm Boj 2178</title>
       <link>https://heozeop.github.io/post/algorithm-boj-2178/</link>
