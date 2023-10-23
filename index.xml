@@ -9,7 +9,25 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 13 Oct 2023 19:45:06 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Oct 2023 21:43:03 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm Boj 2178</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-2178/</link>
+      <pubDate>Mon, 23 Oct 2023 21:43:03 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-2178/</guid>
+      <description>문제 미로탐색 해법을 생각해보자. 방법 1: 그냥 떠오르는 대로 bfs로 0,0부터 탐색 가장 먼저 N,M 도착하면 출력하기 n^2 구현 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 from collections import deque directions = [ [0,1], [0,-1], [1,0], [-1,0], ] VISITED = -1 TARGET = &amp;#39;1&amp;#39; queue = deque() queue.</description>
+    </item>
+    
+    <item>
+      <title>Algorithm Boj 2667</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-2667/</link>
+      <pubDate>Mon, 23 Oct 2023 20:59:09 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-2667/</guid>
+      <description>문제 단지 번호 붙이기 주요 로직을 생각해보자. 1번: 막생각 나는 대로 | O(n^3) 2차원 배열을 입력 받는다. 방문 여부를 const로 설정한다. 2차원 배열을 순회한다. 1이 아니면 통과한다. 상하좌우 탐색한다. dfs로 집 수를 찾는다. 집수 list에 저장한다. 집수 list를 정렬한다. 집수를 출력한다. 구현 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 TARGET = &amp;#39;1&amp;#39; VISITED = -1 cost_list = [] directions = [ [0, 1], [0, -1], [1,0], [-1,0] ] def dfs(x,y): global n map_list[x][y] = VISITED localCount = 1 for i in range(4): nx = x + directions[i][0] ny = y + directions[i][1] if nx &amp;lt; 0 or ny &amp;lt; 0 or nx &amp;gt;= n or ny &amp;gt;= n: continue if map_list[nx][ny] !</description>
+    </item>
+    
     <item>
       <title>Algorithm Boj 15686</title>
       <link>https://heozeop.github.io/post/algorithm-boj-15686/</link>
