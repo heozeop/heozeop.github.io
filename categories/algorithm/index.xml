@@ -9,7 +9,20 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 23 Oct 2023 22:07:43 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Oct 2023 21:30:46 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm Boj 16236</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-16236/</link>
+      <pubDate>Tue, 24 Oct 2023 21:30:46 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-16236/</guid>
+      <description>문제 아기 상어 해결 방법을 생각해 보자. 방법 1: 생각 나는 대로: 기본 로직
+물고기 크기/위치를 기준으로 정렬한다. 먹을 수 있는 물고기만 담는다. 거리를 계산한다. 가장 짧은 거리의 물고기만 먹는다. 먹은 수대로 상어 크기를 올린다. 핵심 로직
+상어의 성장 여부 확인 먹을 수 있는 물고기만 담기 거리 계산하기 bfs로 탐색하기 글로벌 변수
+먹은 물고기 수 상어 성장 여부 판단 상어 크기 상어 위치 시간 순차 로직
+상어 위치 찾기 bfs탐색하며 왼 위 아래 오른쪽 순 돌기 가장 먼저 탐색 된 상어 크기보다 작은 물고기 섭취 물고기 섭취 불가시 종료 상어 성장 여부 판단 이동 시간 기록 1 - 4 반복 코드</description>
+    </item>
+    
     <item>
       <title>Algorithm Boj 14502</title>
       <link>https://heozeop.github.io/post/algorithm-boj-14502/</link>
