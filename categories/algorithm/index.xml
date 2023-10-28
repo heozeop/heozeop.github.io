@@ -9,7 +9,16 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 24 Oct 2023 21:30:46 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Oct 2023 20:23:08 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm Boj 2146</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-2146/</link>
+      <pubDate>Thu, 26 Oct 2023 20:23:08 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-2146/</guid>
+      <description>문제 다리 만들기 문제를 생각해 보자. 1. 생각나는 대로: 대강 대륙은 갈 수 없는 곳 대륙 옆이 길이 1로 설정 bfs로 모두 돌면서 다른 대륙 도달하기 자세히 대륙 별로 대륙 가를 1자로 한다. visit을 나타낼때 출발지, 거리를 나타낸다. 만난 곳이라면 거리를 더해서 min에 저장한다. min을 출력한다. 시간 복잡도 N^2 0인 곳 + 상하좌우에 대륙있는 곳 n^2 탐색 같은 대륙 출발 대륙 통과 바다 짧은 데 다른 대륙 계산 시도 1 문제 대륙이 통과하면 만나지를 못한다.</description>
+    </item>
+    
     <item>
       <title>Algorithm Boj 16236</title>
       <link>https://heozeop.github.io/post/algorithm-boj-16236/</link>
