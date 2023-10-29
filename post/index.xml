@@ -9,7 +9,16 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 26 Oct 2023 20:23:08 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Oct 2023 18:30:34 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm Boj 2638</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-2638/</link>
+      <pubDate>Sun, 29 Oct 2023 18:30:34 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-2638/</guid>
+      <description>문제 치즈 문제 풀이 하기 방법 1 생각 가볍게 녹을 치즈 찾기 녹이기 1,2번 반복 녹을 치즈 찾기 bfs로 치즈 아닌 부분 찾기 윤곽중 2면 이상 치즈 아닌 부분 맡닿은거 마크 지우기 필요한 상수 direction 필요한 변수 치즈 아닌 부분 저장할 list 치즈 아닌 부분 탐색할 queue 마크 저장할 list 맵 저장할 list 시간 복잡도 bfs N^2 N일듯 =&amp;gt; N^3 코드 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 from collections import deque n, m = list(map(int, input().</description>
+    </item>
+    
     <item>
       <title>Algorithm Boj 2146</title>
       <link>https://heozeop.github.io/post/algorithm-boj-2146/</link>
