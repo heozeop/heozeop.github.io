@@ -9,7 +9,16 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 29 Oct 2023 18:30:34 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Oct 2023 22:27:52 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm Boj 2568</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-2568/</link>
+      <pubDate>Mon, 30 Oct 2023 22:27:52 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-2568/</guid>
+      <description>문제 안전 영역 시도 생각 나는 방법 핵심 물뿌리기 안전 영역 구하기 1-2 가장 큰거까지 반복 물뿌리기 n,n 찾아 보기 N^2 안전 영역 구하기 dfs로 돌면서 찾기 N^2 가장 큰거 까지 반복 M 시간 복잡도 N^3 필요 상수 diresctions 필요 변수 visit map input 코드 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 import sys sys.</description>
+    </item>
+    
     <item>
       <title>Algorithm Boj 2638</title>
       <link>https://heozeop.github.io/post/algorithm-boj-2638/</link>
