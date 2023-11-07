@@ -16,7 +16,7 @@
       <pubDate>Tue, 07 Nov 2023 21:23:34 +0900</pubDate>
       
       <guid>https://heozeop.github.io/post/algorithm-boj-1987/</guid>
-      <description>문제 알파벳 해결 방법을 생각해 보자. 방법 1. 생각나는 대로 핵심 백트랙킹으로 visit을 탐색하면서 돈다. 자세하게 dfs로 이동 가능한 영역 접근한다. 여러번 하지 않게 접근한 횟수를 기록한다. 갈데 없으면 비교하고 하나 뺀다. 필요 상수 directions 필요 변수 visit visitBoard n,m board 시간 복잡도 O(n^2 * 4 * n^2) 실패한 원인 in으로 확인하는데 시간이 오래 걸린다. dp처럼 풀려고 했다. 코드 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 n,m = list(map(int, input().</description>
+      <description>문제 알파벳 해결 방법을 생각해 보자. 방법 1. 생각나는 대로 핵심 백트랙킹으로 visit을 탐색하면서 돈다. 자세하게 dfs로 이동 가능한 영역 접근한다. 여러번 하지 않게 접근한 횟수를 기록한다. 갈데 없으면 비교하고 하나 뺀다. 필요 상수 directions 필요 변수 visit visitBoard n,m board 시간 복잡도 O(4 * 26) 4방향, 최대 26개 실패한 원인 in으로 확인하는데 시간이 오래 걸린다. dp처럼 풀려고 했다. 코드 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 n,m = list(map(int, input().</description>
     </item>
     
     <item>
