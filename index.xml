@@ -9,7 +9,16 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Nov 2023 21:23:34 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Nov 2023 08:27:40 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm Boj 16437</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-16437/</link>
+      <pubDate>Wed, 08 Nov 2023 08:27:40 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-16437/</guid>
+      <description>문제 양 구출 작전 풀이 핵심 양있는 섬에서 1번 섬까지 가기 가는게 독립시행 자세히 맵으로 트리 만들기 트리 순회 해서 1번 섬으로 도착하는 것 하기 양 있는데는 한번씩 돌기 변수 island_map sheep_land_list 시간 복잡도 O(n^2) m_i: i번째 길 수 n: 1번까지 path 길이 수열의 합 간과 한것 사이클, 도달할 수 없는 경우가 있음 1에서 부터 후위 순회로 풀어야 했음 답 보고 푼 풀이 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 import sys sys.</description>
+    </item>
+    
     <item>
       <title>Algorithm Boj 1987</title>
       <link>https://heozeop.github.io/post/algorithm-boj-1987/</link>
