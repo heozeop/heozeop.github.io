@@ -9,7 +9,16 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 Nov 2023 21:52:49 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Nov 2023 22:04:28 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm Boj 11053</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-11053/</link>
+      <pubDate>Fri, 17 Nov 2023 22:04:28 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-11053/</guid>
+      <description>문제 가장 긴 증가하는 부분 수열 풀이 핵심 정렬된 수열 back &amp;lt; new =&amp;gt; append back &amp;gt; new =&amp;gt; bisect_left(arr, new + 1) 구체적인 로직 bisect_left n개 int로 받기 arr 받기 arr sort longest_arr = [0] for i in arr: back &amp;lt; i =&amp;gt; append back &amp;gt; i =&amp;gt; arr[bisect_left(arr, i + 1)] = i print(len(longest_arr) - 1) 실패 기억에 따라 증가하기만 해야한다고 생각해 같은값을 대체했다. 코드 1 2 3 4 5 6 7 8 9 10 11 12 13 14 from bisect import bisect_left n = int(input()) arr= list(map(int, input().</description>
+    </item>
+    
     <item>
       <title>Algorithm Boj 11048</title>
       <link>https://heozeop.github.io/post/algorithm-boj-11048/</link>
