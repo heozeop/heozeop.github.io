@@ -9,7 +9,16 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 Nov 2023 21:34:36 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Nov 2023 21:52:49 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm Boj 11048</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-11048/</link>
+      <pubDate>Fri, 17 Nov 2023 21:52:49 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-11048/</guid>
+      <description>문제 이동하기 풀이 핵심 dp[i][j] =&amp;gt; i,j에서 먹을 수 있는 최대 값 dp[i][j] = max(dp[i][j-1], dp[i-1][j-1], dp[i-1][j]) + arr[i][j] 구체적인 풀이 n,m 받기 arr로 int전환해서 map받기 for i in n for j in m dp ~ print(dp[n - 1][m - 1]) 코드 1 2 3 4 5 6 7 8 9 10 11 12 n,m = list(map(int, input().split())) arr = [] for _ in range(n): arr.append(list(map(int, input().split()))) dp = [[0] * (m + 1) for _ in range(n + 1)] for i in range(1, n+ 1): for j in range(1, m+1): dp[i][j] = max(dp[i][j-1], dp[i-1][j-1], dp[i-1][j]) + arr[i-1][j-1] print(dp[n][m]) </description>
+    </item>
+    
     <item>
       <title>Algorithm Boj 2193</title>
       <link>https://heozeop.github.io/post/algorithm-boj-2193/</link>
