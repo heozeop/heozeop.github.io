@@ -9,7 +9,16 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 Nov 2023 21:07:04 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Nov 2023 21:34:36 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm Boj 2193</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-2193/</link>
+      <pubDate>Fri, 17 Nov 2023 21:34:36 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-2193/</guid>
+      <description>문제 이친수 풀이 핵심 dp[i][k] =&amp;gt; i 자리 끝이 k인 이친수 dp[i][0] = dp[i-1][1] + dp[i -1][0] dp[i][1] = dp[i-1][0] dp[1][0] = 0 dp[1][1] = 1 구체적인 코드 n받는다. dp n, 2짜리 2차원 arr만든다 dp[1][0] = 0, dp[1][1] = 1 for i in 2 ~ n: dp[i][0] = dp[i-1][1] + dp[i-1][0] dp[i][1] = dp[i-1][0] print(dp[n][0] + dp[n][1]) 코드 1 2 3 4 5 6 7 8 9 10 11 n = int(input()) dp = [[0] * 2 for _ in range(n + 1)] dp[1][0] = 0 dp[1][1] = 1 for i in range(2, n + 1): dp[i][0] = dp[i-1][0] + dp[i-1][1] dp[i][1] = dp[i-1][0] print(dp[n][0] + dp[n][1]) </description>
+    </item>
+    
     <item>
       <title>Algorithm Boj 2294</title>
       <link>https://heozeop.github.io/post/algorithm-boj-2294/</link>
