@@ -9,7 +9,16 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 Nov 2023 22:04:28 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Nov 2023 21:09:20 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm Boj 14002</title>
+      <link>https://heozeop.github.io/post/algorithm-boj-14002/</link>
+      <pubDate>Sun, 19 Nov 2023 21:09:20 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/algorithm-boj-14002/</guid>
+      <description>문제 가장 긴 증가하는 부분 수열 4 풀이 핵심 긴 수열 길이 구하기 순서 바꾸기로 가능 긴 수열 구하기 순서 바뀌어 다시 구해줘야함. 실패 순서가 바뀌는 걸 이해하지 못함. 외워서 풀었다는 이야기 코드 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 from bisect import bisect_left n = int(input()) arr = list(map(int, input().</description>
+    </item>
+    
     <item>
       <title>Algorithm Boj 11053</title>
       <link>https://heozeop.github.io/post/algorithm-boj-11053/</link>
