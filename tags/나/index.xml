@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>나 on Crispy bLog</title>
+    <link>https://heozeop.github.io/tags/%EB%82%98/</link>
+    <description>Recent content in 나 on Crispy bLog</description>
+    <image>
+      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 13 Dec 2023 23:10:32 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/%EB%82%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>아는 척에 대한 고찰</title>
+      <link>https://heozeop.github.io/post/thought-about-lie/</link>
+      <pubDate>Wed, 13 Dec 2023 23:10:32 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/thought-about-lie/</guid>
+      <description>아는 척 개발자를 떠나서 저는 아는 척을 많이 하는 편입니다. 생각 이상으로 많은 경우 자연스럽게 아는 척을 합니다. 오늘은 아는 척을 하는 상황을 돌아보고, 어떻게 행동하고 싶은지를 논해 보려 합니다.
+어떤 상황에 아는 척을 할까? 잠깐 생각해도 수십가지의 상황들이 떠오릅니다. 오늘은 경험의 유무를 기준으로 아래 두가지 상황을 살펴보겠습니다.
+써본 적 없는 기술에 대해서 이야기 할 때 써본적은 없지만 들어본 기술이라면 적당히 아는 척하며 기술에 대해 그냥 생각나는대로 떠들어 댑니다. 이러한 거짓말의 장점이라면 추후에 양심의 가책을 피하기 위해 정말로 해본다는 것입니다.</description>
+    </item>
+    
+  </channel>
+</rss>

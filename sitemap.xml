@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://heozeop.github.io/categories/</loc>
+    <lastmod>2023-12-13T23:10:32+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/</loc>
+    <lastmod>2023-12-13T23:10:32+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/post/</loc>
+    <lastmod>2023-12-13T23:10:32+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/tags/</loc>
+    <lastmod>2023-12-13T23:10:32+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/categories/thought/</loc>
+    <lastmod>2023-12-13T23:10:32+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/tags/%EB%82%98/</loc>
+    <lastmod>2023-12-13T23:10:32+09:00</lastmod>
+  </url><url>
+    <loc>https://heozeop.github.io/post/thought-about-lie/</loc>
+    <lastmod>2023-12-13T23:10:32+09:00</lastmod>
+  </url><url>
     <loc>https://heozeop.github.io/categories/algorithm/</loc>
     <lastmod>2023-11-19T21:09:20+09:00</lastmod>
   </url><url>
     <loc>https://heozeop.github.io/post/algorithm-boj-14002/</loc>
-    <lastmod>2023-11-19T21:09:20+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/categories/</loc>
-    <lastmod>2023-11-19T21:09:20+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/</loc>
-    <lastmod>2023-11-19T21:09:20+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/post/</loc>
     <lastmod>2023-11-19T21:09:20+09:00</lastmod>
   </url><url>
     <loc>https://heozeop.github.io/post/algorithm-boj-11053/</loc>
@@ -76,12 +88,6 @@
   </url><url>
     <loc>https://heozeop.github.io/post/algorithm-boj-2661/</loc>
     <lastmod>2023-10-05T18:31:38+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/tags/</loc>
-    <lastmod>2023-10-05T07:19:49+09:00</lastmod>
-  </url><url>
-    <loc>https://heozeop.github.io/categories/thought/</loc>
-    <lastmod>2023-10-05T07:19:49+09:00</lastmod>
   </url><url>
     <loc>https://heozeop.github.io/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</loc>
     <lastmod>2023-10-05T07:19:49+09:00</lastmod>
