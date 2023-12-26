@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Row Level Security on Crispy bLog</title>
+    <link>https://heozeop.github.io/tags/row-level-security/</link>
+    <description>Recent content in Row Level Security on Crispy bLog</description>
+    <image>
+      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 26 Dec 2023 19:50:50 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/row-level-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postgresql Row Level Security(로우 레벨 시큐리티)</title>
+      <link>https://heozeop.github.io/post/postgresql-row-level-security/</link>
+      <pubDate>Tue, 26 Dec 2023 19:50:50 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/postgresql-row-level-security/</guid>
+      <description>ref: https://www.postgresql.org/docs/current/ddl-rowsecurity.html
+Row Level Security 메타 정의 boolean을 리턴하는 query를 테이블의 row에 접근할 때 호출해 접근 권한을 확인하는 보안 방법 정의된 policy를 따름. 동작 optimizer의 optimization등의 leak proof fucntion 동작 RLS 확인 주어진 query 수행 활성화 ALTER TABLE ... ENABLE ROW LEVEL SECURITY; table owner등 bypassRLS 조건인 경우, RLS 확인을 강제하고 싶은 경우 아래 command 사용 ALTER TABLE ... FORCE ROW LEVEL SECURITY 활성화 여부는 policy 삭제와 관계 없음 table의 RLS가 disabled라도 policy는 편집 가능 고려 사항 performance row 접근시 마다 확인하기 때문에 영향을 줄 수 있다.</description>
+    </item>
+    
+  </channel>
+</rss>
