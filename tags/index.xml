@@ -9,7 +9,16 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 Dec 2023 19:50:50 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Dec 2023 20:02:34 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>채팅 예시</title>
+      <link>https://heozeop.github.io/tags/%EC%B1%84%ED%8C%85-%EC%98%88%EC%8B%9C/</link>
+      <pubDate>Tue, 26 Dec 2023 20:02:34 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/tags/%EC%B1%84%ED%8C%85-%EC%98%88%EC%8B%9C/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>postgreSQL</title>
       <link>https://heozeop.github.io/tags/postgresql/</link>

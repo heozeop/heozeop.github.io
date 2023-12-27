@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>개발 on Crispy bLog</title>
+    <link>https://heozeop.github.io/categories/%EA%B0%9C%EB%B0%9C/</link>
+    <description>Recent content in 개발 on Crispy bLog</description>
+    <image>
+      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 26 Dec 2023 20:02:34 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/%EA%B0%9C%EB%B0%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>채팅 예제 만들기 1</title>
+      <link>https://heozeop.github.io/post/develop-chat-example-1/</link>
+      <pubDate>Tue, 26 Dec 2023 20:02:34 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/develop-chat-example-1/</guid>
+      <description>TL;DR 채팅 예제를 만들어 본 후기 문서, 코드? 흥미 driven 개발. 채팅 예제 만들기 2 기대 요망. 채팅 예제 만들기 왜 와이 실력에 대한 고민을 하면서 저는 스스로를 반쪽짜리라고 생각해 왔습니다. 경험도, 지식도 부족한 반쪽짜리 개발자. 그래서 고민을 오래한 것 같습니다. 과연 잘하는 개발자란 무엇인가. 업무적으로 장애를 만나 수정할 기회가 없는 상황이라면, 성장하기 위해 무엇을 할 수 있을까. 고민 끝에 나온 결과는 &amp;lsquo;하고 싶은 걸, 하고 있을 때, 하고 싶은 형식으로 개발할 수 있는 능력&amp;rsquo;을 갖춰야 한다고 생각하게 되었습니다.</description>
+    </item>
+    
+  </channel>
+</rss>
