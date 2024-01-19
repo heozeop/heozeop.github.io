@@ -9,7 +9,16 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 Dec 2023 20:02:34 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jan 2024 13:11:06 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>book</title>
+      <link>https://heozeop.github.io/categories/book/</link>
+      <pubDate>Fri, 19 Jan 2024 13:11:06 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/categories/book/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>개발</title>
       <link>https://heozeop.github.io/categories/%EA%B0%9C%EB%B0%9C/</link>
@@ -43,15 +52,6 @@
       <pubDate>Thu, 06 Jul 2023 21:36:00 +0900</pubDate>
       
       <guid>https://heozeop.github.io/categories/nestjs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>book</title>
-      <link>https://heozeop.github.io/categories/book/</link>
-      <pubDate>Tue, 20 Jun 2023 16:10:35 +0900</pubDate>
-      
-      <guid>https://heozeop.github.io/categories/book/</guid>
       <description></description>
     </item>
     
