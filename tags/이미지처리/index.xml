@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>이미지처리 on Crispy bLog</title>
+    <link>https://heozeop.github.io/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%B2%98%EB%A6%AC/</link>
+    <description>Recent content in 이미지처리 on Crispy bLog</description>
+    <image>
+      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 25 Jan 2024 18:36:44 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%B2%98%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[회고] heic-convert 분석 - NodeJS 라이브러리</title>
+      <link>https://heozeop.github.io/post/research-heic-converter/</link>
+      <pubDate>Thu, 25 Jan 2024 18:36:44 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/research-heic-converter/</guid>
+      <description>TL;DR 커뮤니티 만들때 HEIF파일을 JPEG로 바꾸어 다루면 편합니다. NodeJS에서 이를 구현한 heic-converter 라이브러리를 분석해 봅니다. 왜 와이 커뮤니티를 만들때면 이미지를 입력 받는 경우가 있습니다. 이때 애플의 아이폰/아이패드의 경우, 고효율 압축 방식인 HEIF(High Efficiency Image File Format) 방식을 사용합니다. 당연하게도, ISO 표준인 JPEG(Joint Photographic Expert Group) 등과는 다른 파일 형식을 가지고 있습니다. libheif등의 라이브러리가 등장하는 대목입니다.
+만약 node에서 sharp를 이용해 heif로 파일을 처리하고자 한다면 이 과정은 정말 쉽지 않습니다. HEIF는 HEVC(High Efficiency Video Coding)을 이용해 compression을 하기 때문에 libde265와 x265 같은 라이브러리가 추가로 필요하기 때문입니다.</description>
+    </item>
+    
+  </channel>
+</rss>
