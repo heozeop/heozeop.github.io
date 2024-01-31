@@ -9,7 +9,16 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Jan 2024 18:36:44 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Jan 2024 21:07:19 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[회고] next step ATDD with Spring 1주차</title>
+      <link>https://heozeop.github.io/post/first-week-of-next-step/</link>
+      <pubDate>Wed, 31 Jan 2024 21:07:19 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/first-week-of-next-step/</guid>
+      <description>TL;DR Spring에서 RestAssured를 이용해 인수 테스트를 작성하는 방법 학습 Spring에 대한 이해의 한계를 맛봄 JPA를 사용해봄 NextStep ATDD with Spring 왜 와이 80만원 주고 강의를 샀습니다. 최근 JAVA를 학습하겠다고 다짐하여 Spring에 대한 학습을 다시 시작했습니다. 혼자 학습하고자 고군분투했지만 남는게 많이 없다고 느끼는 요즘이었습니다. 그런 그때, 과거에 결제만 했었던 NextStep에서 메일을 한통 받았습니다. ATDD with Spring 강의를 시작한다는 내용이었습니다. 강의 비용은 80만원이었지만 저는 지를 수 밖에 없었습니다. 강의 전반에 걸쳐 코드리뷰를 받을 수 있다는 점이 검토가 필요했던 제게 너무나도 매력적인 부분이었기 때문입니다.</description>
+    </item>
+    
     <item>
       <title>[회고] heic-convert 분석 - NodeJS 라이브러리</title>
       <link>https://heozeop.github.io/post/research-heic-converter/</link>
