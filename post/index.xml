@@ -9,7 +9,17 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 31 Jan 2024 21:07:19 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Feb 2024 18:22:58 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS에서 aurora database의 Major 버전을 업그레이드하는 방법</title>
+      <link>https://heozeop.github.io/post/research-aws-upload/</link>
+      <pubDate>Thu, 01 Feb 2024 18:22:58 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/research-aws-upload/</guid>
+      <description>TL;DR Aurora MySQL db를 업데이트하는 2가지 방법을 소개 2가지 방법 중 좋다고 생각한 방법과 이유를 소개 왜 와이 Aurora DB 2점대의 depreacation이슈 MySQL 5.7의 지원 종료와 함께 몇일 전이었습니다. MySQL 5.7버전이 정식 지원 종료된다는 소식을 들은게&amp;hellip; 이에 AWS에서는 AuroraDB 2점대를 3점대로 업그레이드 하라는 안내를 주었습니다. 그걸 이제서야 본 것이죠. 부랴 부랴 문서를 찾아 읽기 시작했습니다. 다행이도 문서는 매우 잘 정리가 되어있었고, 한글로 봐도 될 정도의 번역으로 만들어져 있었습니다.
+이 글은 그 문서들을 읽고 내린 의견과 문서를 약간 정리한 내용을 소개하는 글입니다.</description>
+    </item>
+    
     <item>
       <title>[회고] next step ATDD with Spring 1주차</title>
       <link>https://heozeop.github.io/post/first-week-of-next-step/</link>
