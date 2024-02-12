@@ -9,7 +9,17 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 01 Feb 2024 18:22:58 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Feb 2024 19:07:19 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[회고] next step ATDD with Spring 2주차</title>
+      <link>https://heozeop.github.io/post/experience-second-week-of-next-step-atdd/</link>
+      <pubDate>Mon, 12 Feb 2024 19:07:19 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/experience-second-week-of-next-step-atdd/</guid>
+      <description>TL;DR 인수 테스트와 함께 TDD를 함께 해보는 작업 진행 순서를 가진 데이터의 구현 팁 외부 의존성을 도메인 객체에서 활용하는 방법 배운 것 나는 평소에 outside in 테스트를 하고 있었다. inside out/outside in 인수 테스트를 이용해 테스트를 작성하는 방식으로 inside out, outside in 방법이 있습니다. inside out 방법은 도메인 객체부터 차근 차근 테스트를 쌓아 올리는 방식이고, outside in은 그 반대입니다. outside in 테스트의 과정은 웹프로젝트에서 아래와 같이 진행되었습니다.
+컨트롤러를 작성한다. 서비스를 작성한다.</description>
+    </item>
+    
     <item>
       <title>AWS에서 aurora database의 Major 버전을 업그레이드하는 방법</title>
       <link>https://heozeop.github.io/post/research-aws-upload/</link>
