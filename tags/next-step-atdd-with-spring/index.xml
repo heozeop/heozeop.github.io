@@ -9,7 +9,17 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 12 Feb 2024 19:07:19 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/next-step-atdd-with-spring/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Mar 2024 21:07:19 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/next-step-atdd-with-spring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[회고] next step ATDD with Spring 3,4주차</title>
+      <link>https://heozeop.github.io/post/experience-third-and-last-week-of-next-step/</link>
+      <pubDate>Sun, 10 Mar 2024 21:07:19 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/experience-third-and-last-week-of-next-step/</guid>
+      <description>TL;DR 미션은 재미있었다. 리뷰어님 스타일에 따라 리뷰 내용은 다르다. 마무리 하려고 글을 쓰긴 했는데&amp;hellip; 많이 짧네요. 미션은 재미있었다. 유저 로그인과 가격 구하기 3, 4주차의 핵심은 유저 로그인과 가격 구하기 관련 테스트 및 기능의 작성이었습니다. 유저 로그인의 경우 자칫 어려워질 수 있는 주제를 기본 코드들을 활용해 쉽게 할 수 있게 만들어 주었습니다. 추후 개인 프로젝트를 진행하면서도 참고할 법하다고 생각이 든 미션이었습니다.
+리뷰어님의 스타일에 따라 리뷰 내용이 다르다. 나는 객체 지향적인 설계에 대한 피드백을 받고 싶었다.</description>
+    </item>
+    
     <item>
       <title>[회고] next step ATDD with Spring 2주차</title>
       <link>https://heozeop.github.io/post/experience-second-week-of-next-step-atdd/</link>
