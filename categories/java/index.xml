@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Java on Crispy bLog</title>
-    <link>https://heozeop.github.io/tags/java/</link>
+    <link>https://heozeop.github.io/categories/java/</link>
     <description>Recent content in Java on Crispy bLog</description>
     <image>
       <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 16 Mar 2024 21:25:46 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Mar 2024 21:25:46 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JAVA Reflection API를 이용한 Annotation만들기</title>
       <link>https://heozeop.github.io/post/java-custom-annotation-with-reflection/</link>
@@ -21,16 +21,6 @@ Reflection is commonly used by programs which require the ability to examine or 
 Reflection은 JVM에서 동작하고 있는 어플리케이션의 런타임 동작을 검사하거나 바꾸고자 할 때 사용하는 것이다.
 https://docs.oracle.com/javase/tutorial/reflect/
 주의할 점 성능 문제 야기 Reflection은 런타임에 동작을 합니다. 그렇기 때문에 동작을 할 때 JVM의 최적화 과정 일부가 동작하지 않을 수 있습니다.</description>
-    </item>
-    
-    <item>
-      <title>자바의 신 독후감 &amp; 정리</title>
-      <link>https://heozeop.github.io/post/book-report-god-of-java/</link>
-      <pubDate>Fri, 19 Jan 2024 13:11:06 +0900</pubDate>
-      
-      <guid>https://heozeop.github.io/post/book-report-god-of-java/</guid>
-      <description>TL;DR 외우지는 못했다. 읽어볼법 하다. 능동적인 태도가 필요하다. 자바의 신을 읽게 된 계기 F-lab의 준비 도서 본인은 Javascript를 주언어로 사용하는 개발자입니다. 회사 환경에서 성장하고 있지 않다는 생각이 많이 들어서 F-lab Java 백엔드 과정을 신청했습니다. 해당 과정의 사전 과제 중 하나가 &amp;lsquo;Java의 신&amp;rsquo;을 읽기는 것이었습니다.
-책의 첫인상 2권짜리 책은 합치면 생각보다 두꺼웠습니다. 하지만 인상과는 별개로 책의 시작은 그리 어렵지는 않았습니다. 제가 전공생이라서 그런 것인지, 책이 어렵지 않아서 그런 것인지는 잘 모르겠습니다. 책의 시작 부분을 빠르게 넘길 수 있었고, 읽는데 어려움은 크게 없었습니다.</description>
     </item>
     
   </channel>

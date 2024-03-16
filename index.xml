@@ -9,7 +9,20 @@
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 Mar 2024 21:07:19 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Mar 2024 21:25:46 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JAVA Reflection API를 이용한 Annotation만들기</title>
+      <link>https://heozeop.github.io/post/java-custom-annotation-with-reflection/</link>
+      <pubDate>Sat, 16 Mar 2024 21:25:46 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/java-custom-annotation-with-reflection/</guid>
+      <description>TL;DR Reflection이 뭔가 훑어 보기 Annotation이 뭔가 바라만 보기 Reflection으로 Annotation 다루기 Reflection이 뭔가 정의 Oracle의 문서에 따르면 Reflection의 정의는 아래와 같습니다.
+Reflection is commonly used by programs which require the ability to examine or modify the runtime behavior of applications running in the Java virtual machine.
+Reflection은 JVM에서 동작하고 있는 어플리케이션의 런타임 동작을 검사하거나 바꾸고자 할 때 사용하는 것이다.
+https://docs.oracle.com/javase/tutorial/reflect/
+주의할 점 성능 문제 야기 Reflection은 런타임에 동작을 합니다. 그렇기 때문에 동작을 할 때 JVM의 최적화 과정 일부가 동작하지 않을 수 있습니다.</description>
+    </item>
+    
     <item>
       <title>[회고] next step ATDD with Spring 3,4주차</title>
       <link>https://heozeop.github.io/post/experience-third-and-last-week-of-next-step/</link>
