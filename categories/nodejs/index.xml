@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>nodejs on Crispy bLog</title>
+    <link>https://heozeop.github.io/categories/nodejs/</link>
+    <description>Recent content in nodejs on Crispy bLog</description>
+    <image>
+      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 16 May 2024 20:30:55 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>노드에서 배치잡 돌리기(feat. thead, multi thread)</title>
+      <link>https://heozeop.github.io/post/node-batch-job/</link>
+      <pubDate>Thu, 16 May 2024 20:30:55 +0900</pubDate>
+      
+      <guid>https://heozeop.github.io/post/node-batch-job/</guid>
+      <description>TL;DR node에서 배치잡을 돌리고 싶다. child_process, cluster, worker_thread 비교 io intensive + cpu intensive일 때의 비교 node에서 배치잡을 돌리고 싶다. 왜와이 쉽고 빠르게 배치작업을 하고 싶다. 회사에서 일회성 배치작업을 해야 하는 상황이 생겼습니다. 쉽고 빠르게 익숙한 NodeJS로 배치작업을 하고 싶었습니다. io와 cpu 모두 사용하는 작업으로, 딱봐도 오래걸리는 작업이었습니다.
+그냥 해보았습니다. 싱글 스레드로 작업을 진행했습니다. Promise.all로 일부 데이터만 작업을 진행했더니 20분이 걸렸습니다. 도저히 전체를 한번에 돌릴 수는 없다고 생각이 들었고, 빠르게 처리하는 방법을 찾게 되었습니다.</description>
+    </item>
+    
+  </channel>
+</rss>
