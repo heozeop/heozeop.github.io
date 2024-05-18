@@ -11,7 +11,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 16 May 2024 20:30:55 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>노드에서 배치잡 돌리기(feat. thead, multi thread)</title>
+      <title>노드에서 배치잡 돌리기(feat. child_process, cluster, worker_threads)</title>
       <link>https://heozeop.github.io/post/node-batch-job/</link>
       <pubDate>Thu, 16 May 2024 20:30:55 +0900</pubDate>
       
