@@ -1,71 +1,106 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>experience on Crispy bLog</title>
+    <title>Experience on Crispy bLog</title>
     <link>https://heozeop.github.io/categories/experience/</link>
-    <description>Recent content in experience on Crispy bLog</description>
+    <description>Recent content in Experience on Crispy bLog</description>
     <image>
+      <title>Crispy bLog</title>
       <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 Mar 2024 21:07:19 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/experience/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Mar 2024 21:07:19 +0900</lastBuildDate>
+    <atom:link href="https://heozeop.github.io/categories/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[회고] next step ATDD with Spring 3,4주차</title>
       <link>https://heozeop.github.io/post/experience-third-and-last-week-of-next-step/</link>
       <pubDate>Sun, 10 Mar 2024 21:07:19 +0900</pubDate>
-      
       <guid>https://heozeop.github.io/post/experience-third-and-last-week-of-next-step/</guid>
-      <description>TL;DR 미션은 재미있었다. 리뷰어님 스타일에 따라 리뷰 내용은 다르다. 마무리 하려고 글을 쓰긴 했는데&amp;hellip; 많이 짧네요. 미션은 재미있었다. 유저 로그인과 가격 구하기 3, 4주차의 핵심은 유저 로그인과 가격 구하기 관련 테스트 및 기능의 작성이었습니다. 유저 로그인의 경우 자칫 어려워질 수 있는 주제를 기본 코드들을 활용해 쉽게 할 수 있게 만들어 주었습니다. 추후 개인 프로젝트를 진행하면서도 참고할 법하다고 생각이 든 미션이었습니다.
-리뷰어님의 스타일에 따라 리뷰 내용이 다르다. 나는 객체 지향적인 설계에 대한 피드백을 받고 싶었다.</description>
+      <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;미션은 재미있었다.&lt;/li&gt;
+&lt;li&gt;리뷰어님 스타일에 따라 리뷰 내용은 다르다.&lt;/li&gt;
+&lt;li&gt;마무리 하려고 글을 쓰긴 했는데&amp;hellip; 많이 짧네요.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;미션은-재미있었다&#34;&gt;미션은 재미있었다.&lt;/h2&gt;
+&lt;h3 id=&#34;유저-로그인과-가격-구하기&#34;&gt;유저 로그인과 가격 구하기&lt;/h3&gt;
+&lt;p&gt;3, 4주차의 핵심은 유저 로그인과 가격 구하기 관련 테스트 및 기능의 작성이었습니다.
+유저 로그인의 경우 자칫 어려워질 수 있는 주제를 기본 코드들을 활용해 쉽게 할 수 있게 만들어 주었습니다.
+추후 개인 프로젝트를 진행하면서도 참고할 법하다고 생각이 든 미션이었습니다.&lt;/p&gt;
+&lt;h2 id=&#34;리뷰어님의-스타일에-따라-리뷰-내용이-다르다&#34;&gt;리뷰어님의 스타일에 따라 리뷰 내용이 다르다.&lt;/h2&gt;
+&lt;h3 id=&#34;나는-객체-지향적인-설계에-대한-피드백을-받고-싶었다&#34;&gt;나는 객체 지향적인 설계에 대한 피드백을 받고 싶었다.&lt;/h3&gt;
+&lt;p&gt;리뷰어님의 스타일에 따라 코드에 집중하는 경우와 설계에 집중하는 경우가 있다는 걸 느꼈습니다.
+그래서 어떤 점을 리뷰 받고 싶은지 명확하게 전달하는게 중요했던 것 같습니다.
+추후에 다른 nextstep 프로그램에 참여한다면 계속 원하는 바를 요구해야 겠다는 생각을 많이 했습니다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>[회고] next step ATDD with Spring 2주차</title>
       <link>https://heozeop.github.io/post/experience-second-week-of-next-step-atdd/</link>
       <pubDate>Mon, 12 Feb 2024 19:07:19 +0900</pubDate>
-      
       <guid>https://heozeop.github.io/post/experience-second-week-of-next-step-atdd/</guid>
-      <description>TL;DR 인수 테스트와 함께 TDD를 함께 해보는 작업 진행 순서를 가진 데이터의 구현 팁 외부 의존성을 도메인 객체에서 활용하는 방법 배운 것 나는 평소에 outside in 테스트를 하고 있었다. inside out/outside in 인수 테스트를 이용해 테스트를 작성하는 방식으로 inside out, outside in 방법이 있습니다. inside out 방법은 도메인 객체부터 차근 차근 테스트를 쌓아 올리는 방식이고, outside in은 그 반대입니다. outside in 테스트의 과정은 웹프로젝트에서 아래와 같이 진행되었습니다.
-컨트롤러를 작성한다. 서비스를 작성한다.</description>
+      <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;인수 테스트와 함께 TDD를 함께 해보는 작업 진행&lt;/li&gt;
+&lt;li&gt;순서를 가진 데이터의 구현 팁&lt;/li&gt;
+&lt;li&gt;외부 의존성을 도메인 객체에서 활용하는 방법&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;배운-것&#34;&gt;배운 것&lt;/h1&gt;
+&lt;h2 id=&#34;나는-평소에-outside-in-테스트를-하고-있었다&#34;&gt;나는 평소에 outside in 테스트를 하고 있었다.&lt;/h2&gt;
+&lt;h3 id=&#34;inside-outoutside-in&#34;&gt;inside out/outside in&lt;/h3&gt;
+&lt;p&gt;인수 테스트를 이용해 테스트를 작성하는 방식으로 inside out, outside in 방법이 있습니다.
+inside out 방법은 도메인 객체부터 차근 차근 테스트를 쌓아 올리는 방식이고, outside in은 그 반대입니다.
+outside in 테스트의 과정은 웹프로젝트에서 아래와 같이 진행되었습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;컨트롤러를 작성한다.&lt;/li&gt;
+&lt;li&gt;서비스를 작성한다.&lt;/li&gt;
+&lt;li&gt;서비스에 대한 유닛 테스트를 작성하며 작업한다. 이때, dependency는 Mock 객체로 대신한다.&lt;/li&gt;
+&lt;li&gt;코드 작성을 마무리한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;이러한 과정을 가진 outside in 방식의 단점은 아래와 같았습니다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>[회고] next step ATDD with Spring 1주차</title>
       <link>https://heozeop.github.io/post/first-week-of-next-step/</link>
       <pubDate>Wed, 31 Jan 2024 21:07:19 +0900</pubDate>
-      
       <guid>https://heozeop.github.io/post/first-week-of-next-step/</guid>
-      <description>TL;DR Spring에서 RestAssured를 이용해 인수 테스트를 작성하는 방법 학습 Spring에 대한 이해의 한계를 맛봄 JPA를 사용해봄 NextStep ATDD with Spring 왜 와이 80만원 주고 강의를 샀습니다. 최근 JAVA를 학습하겠다고 다짐하여 Spring에 대한 학습을 다시 시작했습니다. 혼자 학습하고자 고군분투했지만 남는게 많이 없다고 느끼는 요즘이었습니다. 그런 그때, 과거에 결제만 했었던 NextStep에서 메일을 한통 받았습니다. ATDD with Spring 강의를 시작한다는 내용이었습니다.
-강의 비용은 80만원이었지만 저는 지를 수 밖에 없었습니다. 강의 전반에 걸쳐 코드리뷰를 받을 수 있다는 점이 검토가 필요했던 제게 너무나도 매력적인 부분이었기 때문입니다.</description>
+      <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring에서 RestAssured를 이용해 인수 테스트를 작성하는 방법 학습&lt;/li&gt;
+&lt;li&gt;Spring에 대한 이해의 한계를 맛봄&lt;/li&gt;
+&lt;li&gt;JPA를 사용해봄&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;nextstep-atdd-with-spring&#34;&gt;NextStep ATDD with Spring&lt;/h1&gt;
+&lt;h2 id=&#34;왜-와이&#34;&gt;왜 와이&lt;/h2&gt;
+&lt;h3 id=&#34;80만원-주고-강의를-샀습니다&#34;&gt;80만원 주고 강의를 샀습니다.&lt;/h3&gt;
+&lt;p&gt;최근 JAVA를 학습하겠다고 다짐하여 Spring에 대한 학습을 다시 시작했습니다.
+혼자 학습하고자 고군분투했지만 남는게 많이 없다고 느끼는 요즘이었습니다.
+그런 그때, 과거에 결제만 했었던 NextStep에서 메일을 한통 받았습니다.
+ATDD with Spring 강의를 시작한다는 내용이었습니다.&lt;/p&gt;
+&lt;p&gt;강의 비용은 80만원이었지만 저는 지를 수 밖에 없었습니다.
+강의 전반에 걸쳐 코드리뷰를 받을 수 있다는 점이 검토가 필요했던 제게 너무나도 매력적인 부분이었기 때문입니다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>[경험] 시스템에 불이 확, 나는 왁</title>
       <link>https://heozeop.github.io/post/when-fire-on-the-external-system/</link>
       <pubDate>Fri, 28 Oct 2022 21:31:00 +0900</pubDate>
-      
       <guid>https://heozeop.github.io/post/when-fire-on-the-external-system/</guid>
       <description>아쉬운 에러 대응 과정을 기록해 봅니다.</description>
     </item>
-    
     <item>
       <title>[경험] 오픈소스에 PR 해본 썰</title>
       <link>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</link>
       <pubDate>Tue, 10 Aug 2021 21:16:03 +0000</pubDate>
-      
       <guid>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</guid>
       <description>DefinitelyTyped에 라이브러리 타입을 올려보고, chakra ui에 pr을 올리며(아직 진행 중) 느낀점을 간단히 소개합니다.</description>
     </item>
-    
     <item>
       <title>[경험] 사이트 로딩속도가 이 번들때문에 느려요!</title>
       <link>https://heozeop.github.io/post/too-big-bundle-size/</link>
       <pubDate>Sun, 03 Jan 2021 13:45:03 +0000</pubDate>
-      
       <guid>https://heozeop.github.io/post/too-big-bundle-size/</guid>
       <description>초보 개발자의 살떨렸던 3시간</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,24 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>nodejs on Crispy bLog</title>
+    <title>Nodejs on Crispy bLog</title>
     <link>https://heozeop.github.io/categories/nodejs/</link>
-    <description>Recent content in nodejs on Crispy bLog</description>
+    <description>Recent content in Nodejs on Crispy bLog</description>
     <image>
+      <title>Crispy bLog</title>
       <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 16 May 2024 20:30:55 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/categories/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Dec 2024 23:10:42 +0900</lastBuildDate>
+    <atom:link href="https://heozeop.github.io/categories/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>가장 빠른 unique by를 만들어 보자</title>
+      <link>https://heozeop.github.io/post/fastest-uniqueby/</link>
+      <pubDate>Wed, 25 Dec 2024 23:10:42 +0900</pubDate>
+      <guid>https://heozeop.github.io/post/fastest-uniqueby/</guid>
+      <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;native set, lodash, ImmutableJS의 Set을 이용한 속도/메모리 사용량/CPU 사용량을 봅니다.&lt;/li&gt;
+&lt;li&gt;CPU 사용량이 많아지는 것에 대한 걱정이 없다면 ImmutableJS의 Set을 활용한 uniqueBy를 구현해 사용하세요&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;꽤-많은-데이터에-대해서-uniqueby를-빠르게-돌리고-싶다&#34;&gt;꽤 많은 데이터에 대해서 uniqueBy를 빠르게 돌리고 싶다.&lt;/h1&gt;
+&lt;h2 id=&#34;왜-와이&#34;&gt;왜 와이&lt;/h2&gt;
+&lt;h3 id=&#34;백만개-정도-되는-데이터를-돌릴-필요가-발생했다&#34;&gt;백만개 정도 되는 데이터를 돌릴 필요가 발생했다.&lt;/h3&gt;
+&lt;p&gt;백만개 row 정도 되는 json array에 대한 uniqueBy를 할 필요가 생겼습니다.
+실제로 백만개 row에 대해서 테스트는 하기 어려워서 그냥 native set을 이용해 개발했습니다.
+개발을 하고 보니, 더 빠른 구조가 있을지 궁금해 졌습니다.
+chatGPT에 물어보니, TypedArray를 사용해 직접 구현하는 방법과 ImmutableJS를 이용해 구현하는 방법을 제안해 주었습니다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>노드에서 배치잡 돌리기(feat. child_process, cluster, worker_threads)</title>
       <link>https://heozeop.github.io/post/node-batch-job/</link>
       <pubDate>Thu, 16 May 2024 20:30:55 +0900</pubDate>
-      
       <guid>https://heozeop.github.io/post/node-batch-job/</guid>
-      <description>TL;DR node에서 배치잡을 돌리고 싶다. child_process, cluster, worker_thread 비교 io intensive + cpu intensive일 때의 비교 child_process 쓸거 함수별 사용 시점 정리 node에서 배치잡을 돌리고 싶다. 왜와이 쉽고 빠르게 배치작업을 하고 싶다. 일회성 배치작업을 해야 하는 상황이 생겼습니다. 쉽고 빠르게 익숙한 NodeJS로 배치작업을 하고 싶었습니다. io와 cpu 모두 사용하는 작업으로, 딱봐도 오래걸리는 작업이었습니다.
-그냥 해보았습니다. 싱글 스레드로 작업을 진행했습니다. Promise.all로 일부 데이터만 작업을 진행했더니 20분이 걸렸습니다. 도저히 전체를 한번에 돌릴 수는 없다고 생각이 들었고, 빠르게 처리하는 방법을 찾게 되었습니다.</description>
+      <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;node에서 배치잡을 돌리고 싶다.&lt;/li&gt;
+&lt;li&gt;child_process, cluster, worker_thread 비교&lt;/li&gt;
+&lt;li&gt;io intensive + cpu intensive일 때의 비교&lt;/li&gt;
+&lt;li&gt;child_process 쓸거
+&lt;ol&gt;
+&lt;li&gt;함수별 사용 시점 정리&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;node에서-배치잡을-돌리고-싶다&#34;&gt;node에서 배치잡을 돌리고 싶다.&lt;/h1&gt;
+&lt;h2 id=&#34;왜와이&#34;&gt;왜와이&lt;/h2&gt;
+&lt;h3 id=&#34;쉽고-빠르게-배치작업을-하고-싶다&#34;&gt;쉽고 빠르게 배치작업을 하고 싶다.&lt;/h3&gt;
+&lt;p&gt;일회성 배치작업을 해야 하는 상황이 생겼습니다.
+쉽고 빠르게 익숙한 NodeJS로 배치작업을 하고 싶었습니다.
+io와 cpu 모두 사용하는 작업으로, 딱봐도 오래걸리는 작업이었습니다.&lt;/p&gt;
+&lt;h3 id=&#34;그냥-해보았습니다&#34;&gt;그냥 해보았습니다.&lt;/h3&gt;
+&lt;p&gt;싱글 스레드로 작업을 진행했습니다.
+Promise.all로 일부 데이터만 작업을 진행했더니 20분이 걸렸습니다.
+도저히 전체를 한번에 돌릴 수는 없다고 생각이 들었고, 빠르게 처리하는 방법을 찾게 되었습니다.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

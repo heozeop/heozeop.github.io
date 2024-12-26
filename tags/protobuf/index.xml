@@ -1,31 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>protobuf on Crispy bLog</title>
+    <title>Protobuf on Crispy bLog</title>
     <link>https://heozeop.github.io/tags/protobuf/</link>
-    <description>Recent content in protobuf on Crispy bLog</description>
+    <description>Recent content in Protobuf on Crispy bLog</description>
     <image>
+      <title>Crispy bLog</title>
       <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Oct 2022 16:13:21 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/protobuf/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Oct 2022 16:13:21 +0900</lastBuildDate>
+    <atom:link href="https://heozeop.github.io/tags/protobuf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[개발/RPC] 무에서 gRPC개념 쌓기</title>
       <link>https://heozeop.github.io/post/overviewing-grpc-concepts/</link>
       <pubDate>Sun, 16 Oct 2022 16:13:21 +0900</pubDate>
-      
       <guid>https://heozeop.github.io/post/overviewing-grpc-concepts/</guid>
-      <description>notice
-뜬구름 잡는 소리를 할 수 있습니다. 댓글 주시면 반영할 수 있도록 하겠습니다.
-반말과 충청도 사투리가 섞여 있습니다. 읽기 어려우신 부분 알려주세요!
-update log
-2022.10.17 - gRPC는 HTTP/2를 사용하므로, TCP에 기반합니다. RPC가 뭐여 정의 Remote Procedure Call의 약자로, 외부 procedure를 실행하는 것
-어서 도냐 grpc가 http2를 쓴댜
-→ TCP를 4계층으로 쓰고, 그 위에서 돌아가는 걸거여
-→ 그럼 application 계층인건가
-장점 IPC 등의 작업 없이 일단 실행시키는 것 가능 서로 다른 언어에서 rpc 통신 방법만 맞추면, 통신 가능 단점 보안 문제가 있을 수 있음 응답이 비동기임 proto buffer는 또 뭐여 정의 google에서 만든 rpc 통신 규약으로, 강력한 message의 정의를 통해서 일관된 데이터 구조로 소통 가능</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;notice&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;뜬구름 잡는 소리를 할 수 있습니다. 댓글 주시면 반영할 수 있도록 하겠습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;반말과 충청도 사투리가 섞여 있습니다. 읽기 어려우신 부분 알려주세요!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;update log&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;2022.10.17 - gRPC는 HTTP/2를 사용하므로, TCP에 기반합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;rpc가-뭐여&#34;&gt;RPC가 뭐여&lt;/h1&gt;
+&lt;h2 id=&#34;정의&#34;&gt;정의&lt;/h2&gt;
+&lt;p&gt;Remote Procedure Call의 약자로, 외부 procedure를 실행하는 것&lt;/p&gt;
+&lt;h2 id=&#34;어서-도냐&#34;&gt;어서 도냐&lt;/h2&gt;
+&lt;p&gt;grpc가 http2를 쓴댜&lt;/p&gt;
+&lt;p&gt;→ TCP를 4계층으로 쓰고, 그 위에서 돌아가는 걸거여&lt;/p&gt;
+&lt;p&gt;→ 그럼 application 계층인건가&lt;/p&gt;
+&lt;h2 id=&#34;장점&#34;&gt;장점&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;IPC 등의 작업 없이 일단 실행시키는 것 가능&lt;/li&gt;
+&lt;li&gt;서로 다른 언어에서 rpc 통신 방법만 맞추면, 통신 가능&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;단점&#34;&gt;단점&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;보안 문제가 있을 수 있음&lt;/li&gt;
+&lt;li&gt;응답이 비동기임&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;proto-buffer는-또-뭐여&#34;&gt;proto buffer는 또 뭐여&lt;/h1&gt;
+&lt;h2 id=&#34;정의-1&#34;&gt;정의&lt;/h2&gt;
+&lt;p&gt;google에서 만든 rpc 통신 규약으로, 강력한 message의 정의를 통해서 일관된 데이터 구조로 소통 가능&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

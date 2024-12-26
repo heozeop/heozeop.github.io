@@ -1,87 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>web on Crispy bLog</title>
+    <title>Web on Crispy bLog</title>
     <link>https://heozeop.github.io/tags/web/</link>
-    <description>Recent content in web on Crispy bLog</description>
+    <description>Recent content in Web on Crispy bLog</description>
     <image>
+      <title>Crispy bLog</title>
       <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 06 Jul 2023 21:36:00 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Jul 2023 21:36:00 +0900</lastBuildDate>
+    <atom:link href="https://heozeop.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[NestJS] 스웨거에 BasicAuth 더하기, feat fastify,GCP</title>
       <link>https://heozeop.github.io/post/nestjs-basic-auth-fastify/</link>
       <pubDate>Thu, 06 Jul 2023 21:36:00 +0900</pubDate>
-      
       <guid>https://heozeop.github.io/post/nestjs-basic-auth-fastify/</guid>
-      <description>스웨거 흔히 스웨거(Swagger)라고 부르는 OpenAPI를 사용할때, 저는 누가 어떻게 보느냐를 고민합니다. 직접 인증을 구현한 경우는 로그인을 시키고, AWS를 사용하는 경우 ip로 접근을 불가하게 만들기도 했습니다. 하지만 GCP의 CloudRun을 이용하는 경우, 구체적인 자원에 접근하기 어려워 Ip로 접근을 차단하는 것은 한계가 있었습니다.
-그래서 떠올린게 basic auth였습니다. 물론 brute-force 공격에는 뚫리기야 하겠지만, 비용 대비 얻는게 크다고 생각했습니다. 제가 원하는 건 아무나 보지 못하는 것이고, 보안 관리는 기본적으로 구글에서 해주기 때문에 제 목적에 딱 알맞는 것이었죠.</description>
+      <description>&lt;h1 id=&#34;스웨거&#34;&gt;스웨거&lt;/h1&gt;
+&lt;p&gt;흔히 스웨거(Swagger)라고 부르는 OpenAPI를 사용할때, 저는 누가 어떻게 보느냐를 고민합니다.
+직접 인증을 구현한 경우는 로그인을 시키고, AWS를 사용하는 경우 ip로 접근을 불가하게 만들기도 했습니다. 하지만 GCP의 CloudRun을 이용하는 경우, 구체적인 자원에 접근하기 어려워 Ip로 접근을 차단하는 것은 한계가 있었습니다.&lt;/p&gt;
+&lt;p&gt;그래서 떠올린게 basic auth였습니다. 물론 brute-force 공격에는 뚫리기야 하겠지만, 비용 대비 얻는게 크다고 생각했습니다. 제가 원하는 건 아무나 보지 못하는 것이고, 보안 관리는 기본적으로 구글에서 해주기 때문에 제 목적에 딱 알맞는 것이었죠.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>[경험] 오픈소스에 PR 해본 썰</title>
       <link>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</link>
       <pubDate>Tue, 10 Aug 2021 21:16:03 +0000</pubDate>
-      
       <guid>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</guid>
       <description>DefinitelyTyped에 라이브러리 타입을 올려보고, chakra ui에 pr을 올리며(아직 진행 중) 느낀점을 간단히 소개합니다.</description>
     </item>
-    
     <item>
       <title>[CSS] CSS 기본 컨셉과 규칙 충돌</title>
       <link>https://heozeop.github.io/post/css-basic-concept/</link>
       <pubDate>Mon, 04 Jan 2021 18:01:03 +0000</pubDate>
-      
       <guid>https://heozeop.github.io/post/css-basic-concept/</guid>
       <description>CSS 규칙 충돌에 대비해서 Inheritance, Specificity, Cascading을 알아봅니다.</description>
     </item>
-    
     <item>
       <title>[CSS] CSS? 그게 뭔데?</title>
       <link>https://heozeop.github.io/post/css-what-is-that/</link>
       <pubDate>Sun, 03 Jan 2021 23:01:03 +0000</pubDate>
-      
       <guid>https://heozeop.github.io/post/css-what-is-that/</guid>
       <description>css의 정의를 알아봅니다.</description>
     </item>
-    
     <item>
       <title>[경험] 사이트 로딩속도가 이 번들때문에 느려요!</title>
       <link>https://heozeop.github.io/post/too-big-bundle-size/</link>
       <pubDate>Sun, 03 Jan 2021 13:45:03 +0000</pubDate>
-      
       <guid>https://heozeop.github.io/post/too-big-bundle-size/</guid>
       <description>초보 개발자의 살떨렸던 3시간</description>
     </item>
-    
     <item>
       <title>[HTML] HTML body?</title>
       <link>https://heozeop.github.io/post/html-body/</link>
       <pubDate>Sat, 02 Jan 2021 15:01:03 +0000</pubDate>
-      
       <guid>https://heozeop.github.io/post/html-body/</guid>
       <description>html의 body를 알자.</description>
     </item>
-    
     <item>
       <title>[HTML] HTML head? 뭐더라...?</title>
       <link>https://heozeop.github.io/post/html-head/</link>
       <pubDate>Fri, 01 Jan 2021 15:24:03 +0000</pubDate>
-      
       <guid>https://heozeop.github.io/post/html-head/</guid>
       <description>HTML head태그를 알자.</description>
     </item>
-    
     <item>
       <title>[HTML] HTML? 설명해보자</title>
       <link>https://heozeop.github.io/post/html-definition/</link>
       <pubDate>Wed, 30 Dec 2020 22:12:03 +0000</pubDate>
-      
       <guid>https://heozeop.github.io/post/html-definition/</guid>
       <description>html의 정의와 기본 속성.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,41 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>html on Crispy bLog</title>
+    <title>Html on Crispy bLog</title>
     <link>https://heozeop.github.io/categories/html/</link>
-    <description>Recent content in html on Crispy bLog</description>
+    <description>Recent content in Html on Crispy bLog</description>
     <image>
+      <title>Crispy bLog</title>
       <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
       <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 02 Jan 2021 15:01:03 +0000</lastBuildDate><atom:link href="https://heozeop.github.io/categories/html/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Jan 2021 15:01:03 +0000</lastBuildDate>
+    <atom:link href="https://heozeop.github.io/categories/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[HTML] HTML body?</title>
       <link>https://heozeop.github.io/post/html-body/</link>
       <pubDate>Sat, 02 Jan 2021 15:01:03 +0000</pubDate>
-      
       <guid>https://heozeop.github.io/post/html-body/</guid>
       <description>html의 body를 알자.</description>
     </item>
-    
     <item>
       <title>[HTML] HTML head? 뭐더라...?</title>
       <link>https://heozeop.github.io/post/html-head/</link>
       <pubDate>Fri, 01 Jan 2021 15:24:03 +0000</pubDate>
-      
       <guid>https://heozeop.github.io/post/html-head/</guid>
       <description>HTML head태그를 알자.</description>
     </item>
-    
     <item>
       <title>[HTML] HTML? 설명해보자</title>
       <link>https://heozeop.github.io/post/html-definition/</link>
       <pubDate>Wed, 30 Dec 2020 22:12:03 +0000</pubDate>
-      
       <guid>https://heozeop.github.io/post/html-definition/</guid>
       <description>html의 정의와 기본 속성.</description>
     </item>
-    
   </channel>
 </rss>
