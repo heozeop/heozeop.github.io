@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>thread on Crispy bLog</title>
-    <link>https://heozeop.github.io/tags/thread/</link>
-    <description>Recent content in thread on Crispy bLog</description>
+    <title>Thread on Crispy bLog</title>
+    <link>http://localhost:1313/tags/thread/</link>
+    <description>Recent content in Thread on Crispy bLog</description>
     <image>
-      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
-      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+      <title>Crispy bLog</title>
+      <url>http://localhost:1313/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>http://localhost:1313/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 05 Jul 2022 20:56:43 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/thread/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 Jul 2022 20:56:43 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/thread/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[OS] 프로세스 VS 스레드</title>
-      <link>https://heozeop.github.io/post/os-process-versus-thread/</link>
+      <link>http://localhost:1313/post/os-process-versus-thread/</link>
       <pubDate>Tue, 05 Jul 2022 20:56:43 +0900</pubDate>
-      
-      <guid>https://heozeop.github.io/post/os-process-versus-thread/</guid>
-      <description>프로세스 VS 스레드 요약 프로세스 정의 프로그램으로부터 인스턴스화 된 것
-운영체제가 관리하는 작업이라는 용어와 동의어로 쓰인다고 합니다.1 상태 스레드 참조 1: 주홍철, 면접을 위한 CS 전공지식 노트 </description>
+      <guid>http://localhost:1313/post/os-process-versus-thread/</guid>
+      <description>&lt;h1 id=&#34;프로세스-vs-스레드&#34;&gt;프로세스 VS 스레드&lt;/h1&gt;
+&lt;h2 id=&#34;요약&#34;&gt;요약&lt;/h2&gt;
+&lt;h2 id=&#34;프로세스&#34;&gt;프로세스&lt;/h2&gt;
+&lt;h3 id=&#34;정의&#34;&gt;정의&lt;/h3&gt;
+&lt;p&gt;프로그램으로부터 인스턴스화 된 것&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;운영체제가 관리하는 작업이라는 용어와 동의어로 쓰인다고 합니다.&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=292815727&#34;&gt;1&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;상태&#34;&gt;상태&lt;/h3&gt;
+&lt;h2 id=&#34;스레드&#34;&gt;스레드&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;참조&#34;&gt;참조&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=292815727&#34;&gt;1&lt;/a&gt;: &lt;a href=&#34;https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=292815727&#34;&gt;주홍철, 면접을 위한 CS 전공지식 노트&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

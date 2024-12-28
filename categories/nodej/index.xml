@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nodej on Crispy bLog</title>
+    <link>https://heozeop.github.io/categories/nodej/</link>
+    <description>Recent content in Nodej on Crispy bLog</description>
+    <image>
+      <title>Crispy bLog</title>
+      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Dec 2024 23:10:42 +0900</lastBuildDate>
+    <atom:link href="https://heozeop.github.io/categories/nodej/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>100만개 item를 가장 빠르게 필터링하는 unique by를 만들어 보자</title>
+      <link>https://heozeop.github.io/post/fastest-uniqueby/</link>
+      <pubDate>Wed, 25 Dec 2024 23:10:42 +0900</pubDate>
+      <guid>https://heozeop.github.io/post/fastest-uniqueby/</guid>
+      <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;native set, lodash, ImmutableJS의 Set을 이용한 uniqueBy 구현체의 속도/메모리 사용량/CPU 사용량을 봅니다.&lt;/li&gt;
+&lt;li&gt;CPU 사용량이 많아지는 것에 대한 걱정이 없다면 ImmutableJS의 Set을 활용한 uniqueBy를 구현해 사용하세요.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;꽤-많은-데이터에-대해서-uniqueby를-빠르게-돌리고-싶다&#34;&gt;꽤 많은 데이터에 대해서 uniqueBy를 빠르게 돌리고 싶다.&lt;/h1&gt;
+&lt;h2 id=&#34;왜-와이&#34;&gt;왜 와이&lt;/h2&gt;
+&lt;h3 id=&#34;백만개-정도-되는-데이터를-돌릴-필요가-발생했다&#34;&gt;백만개 정도 되는 데이터를 돌릴 필요가 발생했다.&lt;/h3&gt;
+&lt;p&gt;백만개 item 정도 되는 json array에 대한 uniqueBy를 할 필요가 생겼습니다.
+실제로 백만개 item에 대해서 테스트는 하기 어려워서 그냥 native set을 이용해 개발했습니다.
+개발을 하고 보니, 더 빠른 구조가 있을지 궁금해 졌습니다.
+chatGPT에 물어보니, TypedArray를 사용해 직접 구현하는 방법과 ImmutableJS를 이용해 구현하는 방법을 제안해 주었습니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,24 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>나 on Crispy bLog</title>
-    <link>https://heozeop.github.io/tags/%EB%82%98/</link>
+    <link>http://localhost:1313/tags/%EB%82%98/</link>
     <description>Recent content in 나 on Crispy bLog</description>
     <image>
-      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
-      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+      <title>Crispy bLog</title>
+      <url>http://localhost:1313/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>http://localhost:1313/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 13 Dec 2023 23:10:32 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/%EB%82%98/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Dec 2023 18:28:17 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%EB%82%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>23년 말 기념, 목표에 관한 생각 정리</title>
+      <link>http://localhost:1313/post/thought-about-goals/</link>
+      <pubDate>Tue, 19 Dec 2023 18:28:17 +0900</pubDate>
+      <guid>http://localhost:1313/post/thought-about-goals/</guid>
+      <description>&lt;h1 id=&#34;목표&#34;&gt;목표&lt;/h1&gt;
+&lt;p&gt;목표는 이루고자 하는 것을 의미합니다. 저의 경우, 목표가 명확할때가 많이 없습니다. 매일 매일이 목표 없이 방황합니다. 이런 저는 어떻게 살아야만 할까요? 이에 대한 제 고민의 여정을 소개해 보려 합니다.&lt;/p&gt;
+&lt;h2 id=&#34;나의-목표-연대기&#34;&gt;나의 목표 연대기&lt;/h2&gt;
+&lt;h3 id=&#34;그동안의-목표와-태도&#34;&gt;그동안의 목표와 태도&lt;/h3&gt;
+&lt;p&gt;저는 &amp;lsquo;잘하는&amp;rsquo; 개발자가 되는게 목표입니다. 모호하죠? 잘하는 개발자는 어떤 개발자일까요? 일단 저는 스스로를 잘하는 개발자라고 생각하지 않는다는 것을 알 수 있습니다.&lt;/p&gt;
+&lt;p&gt;모호할때, 저는 스스로의 조건을 되돌아 봅니다. 제가 가진 것들에 대해서 나열을 한 뒤, 갖지 못한 것들에 대해서 생각합니다. 아쉬운게, 저는 여기서 열등감을 느낍니다. 제가 하지 못한것, 놓친 기회들에 대해 생각하면서 말이죠.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>아는 척에 대한 고찰</title>
-      <link>https://heozeop.github.io/post/thought-about-lie/</link>
+      <link>http://localhost:1313/post/thought-about-lie/</link>
       <pubDate>Wed, 13 Dec 2023 23:10:32 +0900</pubDate>
-      
-      <guid>https://heozeop.github.io/post/thought-about-lie/</guid>
-      <description>아는 척 개발자를 떠나서 저는 아는 척을 많이 하는 편입니다. 생각 이상으로 많은 경우 자연스럽게 아는 척을 합니다. 오늘은 아는 척을 하는 상황을 돌아보고, 어떻게 행동하고 싶은지를 논해 보려 합니다.
-어떤 상황에 아는 척을 할까? 잠깐 생각해도 수십가지의 상황들이 떠오릅니다. 오늘은 경험의 유무를 기준으로 아래 두가지 상황을 살펴보겠습니다.
-써본 적 없는 기술에 대해서 이야기 할 때 써본적은 없지만 들어본 기술이라면 적당히 아는 척하며 기술에 대해 그냥 생각나는대로 떠들어 댑니다. 이러한 거짓말의 장점이라면 추후에 양심의 가책을 피하기 위해 정말로 해본다는 것입니다.</description>
+      <guid>http://localhost:1313/post/thought-about-lie/</guid>
+      <description>&lt;h1 id=&#34;아는-척&#34;&gt;아는 척&lt;/h1&gt;
+&lt;p&gt;개발자를 떠나서 저는 아는 척을 많이 하는 편입니다. 생각 이상으로 많은 경우 자연스럽게 아는 척을 합니다. 오늘은 아는 척을 하는 상황을 돌아보고, 어떻게 행동하고 싶은지를 논해 보려 합니다.&lt;/p&gt;
+&lt;h2 id=&#34;어떤-상황에-아는-척을-할까&#34;&gt;어떤 상황에 아는 척을 할까?&lt;/h2&gt;
+&lt;p&gt;잠깐 생각해도 수십가지의 상황들이 떠오릅니다. 오늘은 경험의 유무를 기준으로 아래 두가지 상황을 살펴보겠습니다.&lt;/p&gt;
+&lt;h3 id=&#34;써본-적-없는-기술에-대해서-이야기-할-때&#34;&gt;써본 적 없는 기술에 대해서 이야기 할 때&lt;/h3&gt;
+&lt;p&gt;써본적은 없지만 들어본 기술이라면 적당히 아는 척하며 기술에 대해 그냥 생각나는대로 떠들어 댑니다.
+이러한 거짓말의 장점이라면 추후에 양심의 가책을 피하기 위해 정말로 해본다는 것입니다.
+물론 그 수준이 흥미를 느껴 배우는 것에 한참 못미친다는 단점이 있습니다.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

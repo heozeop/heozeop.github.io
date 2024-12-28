@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Characteristics of Design on Crispy bLog</title>
+    <link>http://localhost:1313/tags/characteristics-of-design/</link>
+    <description>Recent content in Characteristics of Design on Crispy bLog</description>
+    <image>
+      <title>Crispy bLog</title>
+      <url>http://localhost:1313/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>http://localhost:1313/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 May 2023 22:12:07 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/characteristics-of-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>나의 설계는 잘못되었다...</title>
+      <link>http://localhost:1313/post/five-design-level/</link>
+      <pubDate>Fri, 12 May 2023 22:12:07 +0900</pubDate>
+      <guid>http://localhost:1313/post/five-design-level/</guid>
+      <description>&lt;p&gt;TL;DR&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;code complete라는 책을 일고 무의식에 존재하던 설계의 개념을 눈치 챘습니다.&lt;/li&gt;
+&lt;li&gt;책에서 이야기한 기준과 단계를 따라가며 설계해 봤습니다.&lt;/li&gt;
+&lt;li&gt;아주 보람차고 잘 써먹을 예정입니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;나의-설계는-잘못되었다&#34;&gt;나의 설계는 잘못되었다.&lt;/h1&gt;
+&lt;h3 id=&#34;시작은-키보드-연습-부터&#34;&gt;시작은 키보드 연습 부터&lt;/h3&gt;
+&lt;p&gt;얼마 전에 새로 산 키보드는 분할형입니다. 익숙치 않아 &lt;code&gt;Microsoft&lt;/code&gt;의 &lt;code&gt;Code Complete&lt;/code&gt;라는 책을 옮기는 연습을 했습니다. 그렇게 5장을 읽기 시작했습니다. 내용은 크게 어렵지 않았지만, 저는 충격을 먹고야 말았습니다. 제가 설계하는 방식은 주먹구구라는 것을 알게되었거든요.&lt;/p&gt;
+&lt;p&gt;저는 지금까지 설계를 &lt;code&gt;개념 -&amp;gt; DB -&amp;gt; Class&lt;/code&gt; 순으로 진행했습니다. 딱히 불편함이 없어서 개선할 생각을 안했었습니다. 이 책에서 설계의 중요한 원칙과 단계를 알아가며 개선해야겠다는 생각을 시작했습니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

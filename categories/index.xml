@@ -14,9 +14,16 @@
     <lastBuildDate>Wed, 25 Dec 2024 23:10:42 +0900</lastBuildDate>
     <atom:link href="https://heozeop.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Nodej</title>
+      <link>https://heozeop.github.io/categories/nodej/</link>
+      <pubDate>Wed, 25 Dec 2024 23:10:42 +0900</pubDate>
+      <guid>https://heozeop.github.io/categories/nodej/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Nodejs</title>
       <link>https://heozeop.github.io/categories/nodejs/</link>
-      <pubDate>Wed, 25 Dec 2024 23:10:42 +0900</pubDate>
+      <pubDate>Thu, 16 May 2024 20:30:55 +0900</pubDate>
       <guid>https://heozeop.github.io/categories/nodejs/</guid>
       <description></description>
     </item>

@@ -2,25 +2,133 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>1107 on Crispy bLog</title>
-    <link>https://heozeop.github.io/tags/1107/</link>
+    <link>http://localhost:1313/tags/1107/</link>
     <description>Recent content in 1107 on Crispy bLog</description>
     <image>
-      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
-      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+      <title>Crispy bLog</title>
+      <url>http://localhost:1313/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>http://localhost:1313/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 May 2023 05:12:05 +0900</lastBuildDate><atom:link href="https://heozeop.github.io/tags/1107/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 26 May 2023 05:12:05 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/1107/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[알고리즘] Algorithm Boj 1107</title>
-      <link>https://heozeop.github.io/post/algorithm-boj-1107/</link>
+      <link>http://localhost:1313/post/algorithm-boj-1107/</link>
       <pubDate>Fri, 26 May 2023 05:12:05 +0900</pubDate>
-      
-      <guid>https://heozeop.github.io/post/algorithm-boj-1107/</guid>
-      <description>TL;DR
-GOLD4 문제 왜틀리지 시전 틀린 케이스를 찾아버리고야 말테다 그렇구나. 정확한 사고로 풀어야 겠다 오늘의 문제 뭔일인가. 논리적인 접근 위 문제는 특정한 값 위나 아래로 접근하며 가장 빠르게 도달하는 경우의 수를 구하는 문제입니다. 이러한 특성에 근거해, 목표로 하는 값의 2배로 접근시 충분히 원하는 결과를 얻을 것이라고 생각했습니다.
-2번째 제출 까지는 말이죠
-틀린답 using namespace std; vector&amp;lt;int&amp;gt; allowed; int targetChannel; int visited[1000001]; int m; int count(int); // 특정 지점으로 가는데까지 버튼 누르는 수 계산 void findCombinations(int, vector&amp;lt;int&amp;gt;&amp;amp;); // 1~제한까지 숫자 조합 생성 void input(); void solve(); int main(void) { input(); solve(); return 0; } void input() { cin &amp;gt;&amp;gt; targetChannel &amp;gt;&amp;gt; m; int temp; set&amp;lt;int&amp;gt; blocked; for(int i = 0; i &amp;lt; m; ++i) { cin &amp;gt;&amp;gt; temp; blocked.</description>
+      <guid>http://localhost:1313/post/algorithm-boj-1107/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;TL;DR&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;GOLD4 문제 왜틀리지 시전&lt;/li&gt;
+&lt;li&gt;틀린 케이스를 찾아버리고야 말테다&lt;/li&gt;
+&lt;li&gt;그렇구나. 정확한 사고로 풀어야 겠다&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;오늘의-문제&#34;&gt;오늘의 문제&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;boj-1107&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/heozeop/I-want-to-know-why/assets/29042329/0c4ab650-c601-4802-916f-ecdbe1818f3b&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;뭔일인가&#34;&gt;뭔일인가.&lt;/h2&gt;
+&lt;h3 id=&#34;논리적인-접근&#34;&gt;논리적인 접근&lt;/h3&gt;
+&lt;p&gt;위 문제는 특정한 값 위나 아래로 접근하며 가장 빠르게 도달하는 경우의 수를 구하는 문제입니다.
+이러한 특성에 근거해, 목표로 하는 값의 2배로 접근시 충분히 원하는 결과를 얻을 것이라고 생각했습니다.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2번째 제출 까지는 말이죠&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;틀린답&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;using namespace std;
+
+vector&amp;lt;int&amp;gt; allowed;
+int targetChannel;
+int visited[1000001];
+int m;
+int count(int); // 특정 지점으로 가는데까지 버튼 누르는 수 계산
+void findCombinations(int, vector&amp;lt;int&amp;gt;&amp;amp;); // 1~제한까지 숫자 조합 생성
+
+void input();
+void solve();
+
+int main(void) {
+  input();
+  solve();
+  return 0;
+}
+
+void input() {
+  cin &amp;gt;&amp;gt; targetChannel &amp;gt;&amp;gt; m;
+
+  int temp;
+  set&amp;lt;int&amp;gt; blocked;
+  for(int i = 0; i &amp;lt; m; ++i) {
+    cin &amp;gt;&amp;gt; temp;
+    blocked.insert(temp);
+  }
+
+  for(int i = 0; i &amp;lt; 10; ++i) {
+    if(blocked.find(i) != blocked.end()) {
+      continue;
+    }
+
+    allowed.push_back(i); 
+  }
+
+  return;
+}
+
+void solve() {
+  if(m == 10) {
+    cout &amp;lt;&amp;lt; abs(targetChannel - 100);
+    return;
+  }
+
+  vector&amp;lt;int&amp;gt; arr;
+
+  findCombinations(0, arr);
+
+  sort(arr.begin(), arr.end());
+
+  int localLow = INT_MAX;
+  for(int i = 0; i &amp;lt; arr.size(); ++i) {
+    localLow = min(count(arr[i]), localLow);
+  }
+
+  cout &amp;lt;&amp;lt; min(localLow, abs(targetChannel - 100));
+
+  return;
+}
+
+void findCombinations(int n, vector&amp;lt;int&amp;gt;&amp;amp; arr) {
+  if(n * 10 &amp;gt;= targetChannel * 10) { // 여기가 틀림
+    return;
+  }
+
+  if (visited[n]) {
+    return;
+  }
+
+  visited[n] = 1;
+  int nn;
+  for(int i = 0; i &amp;lt; allowed.size(); ++i) {
+    nn = n * 10 + allowed[i];
+
+    if(nn &amp;lt;= targetChannel * 10) { // 여기가 틀림
+      arr.push_back(nn);
+      findLowerBound(nn, arr);
+    }
+  }
+
+  return;
+}
+
+int count(int on) {
+  return abs(targetChannel - on) + to_string(on).length();
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;답을-찾아보았다&#34;&gt;답을 찾아보았다.&lt;/h3&gt;
+&lt;p&gt;하도 안풀려서 답을 보니 그냥 100만으로 제한을 풀고 돌리더군요.
+애석하게도&amp;hellip; 답이 되었답니다.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
