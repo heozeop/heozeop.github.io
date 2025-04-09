@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Experience on Crispy bLog</title>
-    <link>https://heozeop.github.io/categories/experience/</link>
+    <link>https://blog.heozeop.kr/categories/experience/</link>
     <description>Recent content in Experience on Crispy bLog</description>
     <image>
       <title>Crispy bLog</title>
-      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
-      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+      <url>https://blog.heozeop.kr/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://blog.heozeop.kr/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- 0.140.1</generator>
     <language>en</language>
     <lastBuildDate>Sun, 10 Mar 2024 21:07:19 +0900</lastBuildDate>
-    <atom:link href="https://heozeop.github.io/categories/experience/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.heozeop.kr/categories/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[회고] next step ATDD with Spring 3,4주차</title>
-      <link>https://heozeop.github.io/post/experience-third-and-last-week-of-next-step/</link>
+      <link>https://blog.heozeop.kr/post/experience-third-and-last-week-of-next-step/</link>
       <pubDate>Sun, 10 Mar 2024 21:07:19 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/experience-third-and-last-week-of-next-step/</guid>
+      <guid>https://blog.heozeop.kr/post/experience-third-and-last-week-of-next-step/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;미션은 재미있었다.&lt;/li&gt;
@@ -37,9 +37,9 @@
     </item>
     <item>
       <title>[회고] next step ATDD with Spring 2주차</title>
-      <link>https://heozeop.github.io/post/experience-second-week-of-next-step-atdd/</link>
+      <link>https://blog.heozeop.kr/post/experience-second-week-of-next-step-atdd/</link>
       <pubDate>Mon, 12 Feb 2024 19:07:19 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/experience-second-week-of-next-step-atdd/</guid>
+      <guid>https://blog.heozeop.kr/post/experience-second-week-of-next-step-atdd/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;인수 테스트와 함께 TDD를 함께 해보는 작업 진행&lt;/li&gt;
@@ -62,9 +62,9 @@ outside in 테스트의 과정은 웹프로젝트에서 아래와 같이 진행�
     </item>
     <item>
       <title>[회고] next step ATDD with Spring 1주차</title>
-      <link>https://heozeop.github.io/post/first-week-of-next-step/</link>
+      <link>https://blog.heozeop.kr/post/first-week-of-next-step/</link>
       <pubDate>Wed, 31 Jan 2024 21:07:19 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/first-week-of-next-step/</guid>
+      <guid>https://blog.heozeop.kr/post/first-week-of-next-step/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Spring에서 RestAssured를 이용해 인수 테스트를 작성하는 방법 학습&lt;/li&gt;
@@ -83,23 +83,23 @@ ATDD with Spring 강의를 시작한다는 내용이었습니다.&lt;/p&gt;
     </item>
     <item>
       <title>[경험] 시스템에 불이 확, 나는 왁</title>
-      <link>https://heozeop.github.io/post/when-fire-on-the-external-system/</link>
+      <link>https://blog.heozeop.kr/post/when-fire-on-the-external-system/</link>
       <pubDate>Fri, 28 Oct 2022 21:31:00 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/when-fire-on-the-external-system/</guid>
+      <guid>https://blog.heozeop.kr/post/when-fire-on-the-external-system/</guid>
       <description>아쉬운 에러 대응 과정을 기록해 봅니다.</description>
     </item>
     <item>
       <title>[경험] 오픈소스에 PR 해본 썰</title>
-      <link>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</link>
+      <link>https://blog.heozeop.kr/post/learn-and-feel-from-simple-opensource-contribution/</link>
       <pubDate>Tue, 10 Aug 2021 21:16:03 +0000</pubDate>
-      <guid>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</guid>
+      <guid>https://blog.heozeop.kr/post/learn-and-feel-from-simple-opensource-contribution/</guid>
       <description>DefinitelyTyped에 라이브러리 타입을 올려보고, chakra ui에 pr을 올리며(아직 진행 중) 느낀점을 간단히 소개합니다.</description>
     </item>
     <item>
       <title>[경험] 사이트 로딩속도가 이 번들때문에 느려요!</title>
-      <link>https://heozeop.github.io/post/too-big-bundle-size/</link>
+      <link>https://blog.heozeop.kr/post/too-big-bundle-size/</link>
       <pubDate>Sun, 03 Jan 2021 13:45:03 +0000</pubDate>
-      <guid>https://heozeop.github.io/post/too-big-bundle-size/</guid>
+      <guid>https://blog.heozeop.kr/post/too-big-bundle-size/</guid>
       <description>초보 개발자의 살떨렸던 3시간</description>
     </item>
   </channel>

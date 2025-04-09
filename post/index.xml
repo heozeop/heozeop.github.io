@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Crispy bLog</title>
-    <link>https://heozeop.github.io/post/</link>
+    <link>https://blog.heozeop.kr/post/</link>
     <description>Recent content in Posts on Crispy bLog</description>
     <image>
       <title>Crispy bLog</title>
-      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
-      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+      <url>https://blog.heozeop.kr/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://blog.heozeop.kr/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- 0.140.1</generator>
     <language>en</language>
     <lastBuildDate>Wed, 25 Dec 2024 23:10:42 +0900</lastBuildDate>
-    <atom:link href="https://heozeop.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.heozeop.kr/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>100만개 item을 가장 빠르게 필터링하는 unique by를 만들어 보자</title>
-      <link>https://heozeop.github.io/post/fastest-uniqueby/</link>
+      <link>https://blog.heozeop.kr/post/fastest-uniqueby/</link>
       <pubDate>Wed, 25 Dec 2024 23:10:42 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/fastest-uniqueby/</guid>
+      <guid>https://blog.heozeop.kr/post/fastest-uniqueby/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;native set, lodash, ImmutableJS의 Set을 이용한 uniqueBy 구현체의 속도/메모리 사용량/CPU 사용량을 봅니다.&lt;/li&gt;
@@ -33,9 +33,9 @@ chatGPT에 물어보니, TypedArray를 사용해 직접 구현하는 방법과 I
     </item>
     <item>
       <title>노드에서 배치잡 돌리기(feat. child_process, cluster, worker_threads)</title>
-      <link>https://heozeop.github.io/post/node-batch-job/</link>
+      <link>https://blog.heozeop.kr/post/node-batch-job/</link>
       <pubDate>Thu, 16 May 2024 20:30:55 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/node-batch-job/</guid>
+      <guid>https://blog.heozeop.kr/post/node-batch-job/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;node에서 배치잡을 돌리고 싶다.&lt;/li&gt;
@@ -60,9 +60,9 @@ Promise.all로 일부 데이터만 작업을 진행했더니 20분이 걸렸습�
     </item>
     <item>
       <title>JAVA Reflection API를 이용한 Annotation만들기</title>
-      <link>https://heozeop.github.io/post/java-custom-annotation-with-reflection/</link>
+      <link>https://blog.heozeop.kr/post/java-custom-annotation-with-reflection/</link>
       <pubDate>Sat, 16 Mar 2024 21:25:46 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/java-custom-annotation-with-reflection/</guid>
+      <guid>https://blog.heozeop.kr/post/java-custom-annotation-with-reflection/</guid>
       <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Reflection이 뭔가 훑어 보기&lt;/li&gt;
@@ -103,9 +103,9 @@ Promise.all로 일부 데이터만 작업을 진행했더니 20분이 걸렸습�
     </item>
     <item>
       <title>[회고] next step ATDD with Spring 3,4주차</title>
-      <link>https://heozeop.github.io/post/experience-third-and-last-week-of-next-step/</link>
+      <link>https://blog.heozeop.kr/post/experience-third-and-last-week-of-next-step/</link>
       <pubDate>Sun, 10 Mar 2024 21:07:19 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/experience-third-and-last-week-of-next-step/</guid>
+      <guid>https://blog.heozeop.kr/post/experience-third-and-last-week-of-next-step/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;미션은 재미있었다.&lt;/li&gt;
@@ -125,9 +125,9 @@ Promise.all로 일부 데이터만 작업을 진행했더니 20분이 걸렸습�
     </item>
     <item>
       <title>[회고] next step ATDD with Spring 2주차</title>
-      <link>https://heozeop.github.io/post/experience-second-week-of-next-step-atdd/</link>
+      <link>https://blog.heozeop.kr/post/experience-second-week-of-next-step-atdd/</link>
       <pubDate>Mon, 12 Feb 2024 19:07:19 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/experience-second-week-of-next-step-atdd/</guid>
+      <guid>https://blog.heozeop.kr/post/experience-second-week-of-next-step-atdd/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;인수 테스트와 함께 TDD를 함께 해보는 작업 진행&lt;/li&gt;
@@ -150,9 +150,9 @@ outside in 테스트의 과정은 웹프로젝트에서 아래와 같이 진행�
     </item>
     <item>
       <title>AWS에서 aurora database의 Major 버전을 업그레이드하는 방법</title>
-      <link>https://heozeop.github.io/post/research-aws-upload/</link>
+      <link>https://blog.heozeop.kr/post/research-aws-upload/</link>
       <pubDate>Thu, 01 Feb 2024 18:22:58 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/research-aws-upload/</guid>
+      <guid>https://blog.heozeop.kr/post/research-aws-upload/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Aurora MySQL db를 업데이트하는 2가지 방법을 소개&lt;/li&gt;
@@ -169,9 +169,9 @@ outside in 테스트의 과정은 웹프로젝트에서 아래와 같이 진행�
     </item>
     <item>
       <title>[회고] next step ATDD with Spring 1주차</title>
-      <link>https://heozeop.github.io/post/first-week-of-next-step/</link>
+      <link>https://blog.heozeop.kr/post/first-week-of-next-step/</link>
       <pubDate>Wed, 31 Jan 2024 21:07:19 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/first-week-of-next-step/</guid>
+      <guid>https://blog.heozeop.kr/post/first-week-of-next-step/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Spring에서 RestAssured를 이용해 인수 테스트를 작성하는 방법 학습&lt;/li&gt;
@@ -190,9 +190,9 @@ ATDD with Spring 강의를 시작한다는 내용이었습니다.&lt;/p&gt;
     </item>
     <item>
       <title>자바의 신 독후감 &amp; 정리</title>
-      <link>https://heozeop.github.io/post/book-report-god-of-java/</link>
+      <link>https://blog.heozeop.kr/post/book-report-god-of-java/</link>
       <pubDate>Fri, 19 Jan 2024 13:11:06 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/book-report-god-of-java/</guid>
+      <guid>https://blog.heozeop.kr/post/book-report-god-of-java/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;외우지는 못했다.&lt;/li&gt;
@@ -211,9 +211,9 @@ ATDD with Spring 강의를 시작한다는 내용이었습니다.&lt;/p&gt;
     </item>
     <item>
       <title>채팅 예제 만들기 1</title>
-      <link>https://heozeop.github.io/post/develop-chat-example-1/</link>
+      <link>https://blog.heozeop.kr/post/develop-chat-example-1/</link>
       <pubDate>Tue, 26 Dec 2023 20:02:34 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/develop-chat-example-1/</guid>
+      <guid>https://blog.heozeop.kr/post/develop-chat-example-1/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;채팅 예제를 만들어 본 후기&lt;/li&gt;
@@ -230,9 +230,9 @@ ATDD with Spring 강의를 시작한다는 내용이었습니다.&lt;/p&gt;
     </item>
     <item>
       <title>Postgresql Row Level Security(로우 레벨 시큐리티)</title>
-      <link>https://heozeop.github.io/post/postgresql-row-level-security/</link>
+      <link>https://blog.heozeop.kr/post/postgresql-row-level-security/</link>
       <pubDate>Tue, 26 Dec 2023 19:50:50 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/postgresql-row-level-security/</guid>
+      <guid>https://blog.heozeop.kr/post/postgresql-row-level-security/</guid>
       <description>&lt;p&gt;ref: &lt;a href=&#34;https://www.postgresql.org/docs/current/ddl-rowsecurity.html&#34;&gt;https://www.postgresql.org/docs/current/ddl-rowsecurity.html&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;row-level-security&#34;&gt;Row Level Security&lt;/h1&gt;
@@ -347,9 +347,9 @@ ATDD with Spring 강의를 시작한다는 내용이었습니다.&lt;/p&gt;
     </item>
     <item>
       <title>디테일을 챙기는 개발자가 되고 싶어 하는 고찰</title>
-      <link>https://heozeop.github.io/post/detailed-developer/</link>
+      <link>https://blog.heozeop.kr/post/detailed-developer/</link>
       <pubDate>Thu, 05 Oct 2023 07:19:49 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/detailed-developer/</guid>
+      <guid>https://blog.heozeop.kr/post/detailed-developer/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;저는 디테일을 잘 못챙깁니다.&lt;/li&gt;
@@ -366,9 +366,9 @@ ATDD with Spring 강의를 시작한다는 내용이었습니다.&lt;/p&gt;
     </item>
     <item>
       <title>어떤 개발자가 되고 싶은지에 관한 고찰</title>
-      <link>https://heozeop.github.io/post/i-wanna-be/</link>
+      <link>https://blog.heozeop.kr/post/i-wanna-be/</link>
       <pubDate>Wed, 30 Aug 2023 21:59:51 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/i-wanna-be/</guid>
+      <guid>https://blog.heozeop.kr/post/i-wanna-be/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;상상해 보았습니다.
@@ -385,9 +385,9 @@ ATDD with Spring 강의를 시작한다는 내용이었습니다.&lt;/p&gt;
     </item>
     <item>
       <title>[NestJS] 스웨거에 BasicAuth 더하기, feat fastify,GCP</title>
-      <link>https://heozeop.github.io/post/nestjs-basic-auth-fastify/</link>
+      <link>https://blog.heozeop.kr/post/nestjs-basic-auth-fastify/</link>
       <pubDate>Thu, 06 Jul 2023 21:36:00 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/nestjs-basic-auth-fastify/</guid>
+      <guid>https://blog.heozeop.kr/post/nestjs-basic-auth-fastify/</guid>
       <description>&lt;h1 id=&#34;스웨거&#34;&gt;스웨거&lt;/h1&gt;
 &lt;p&gt;흔히 스웨거(Swagger)라고 부르는 OpenAPI를 사용할때, 저는 누가 어떻게 보느냐를 고민합니다.
 직접 인증을 구현한 경우는 로그인을 시키고, AWS를 사용하는 경우 ip로 접근을 불가하게 만들기도 했습니다. 하지만 GCP의 CloudRun을 이용하는 경우, 구체적인 자원에 접근하기 어려워 Ip로 접근을 차단하는 것은 한계가 있었습니다.&lt;/p&gt;
@@ -395,16 +395,16 @@ ATDD with Spring 강의를 시작한다는 내용이었습니다.&lt;/p&gt;
     </item>
     <item>
       <title>좋은 코드와 나쁜 코드</title>
-      <link>https://heozeop.github.io/post/book-good-code-bad-code/</link>
+      <link>https://blog.heozeop.kr/post/book-good-code-bad-code/</link>
       <pubDate>Tue, 20 Jun 2023 16:10:35 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/book-good-code-bad-code/</guid>
+      <guid>https://blog.heozeop.kr/post/book-good-code-bad-code/</guid>
       <description>품질의 정의와 좋다 나쁘다를 생각하기</description>
     </item>
     <item>
       <title>[책] &#39;기억, 꿈, 사상&#39;에 대한 감상</title>
-      <link>https://heozeop.github.io/post/book-memories-dreams-reflections/</link>
+      <link>https://blog.heozeop.kr/post/book-memories-dreams-reflections/</link>
       <pubDate>Sun, 30 Oct 2022 20:49:13 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/book-memories-dreams-reflections/</guid>
+      <guid>https://blog.heozeop.kr/post/book-memories-dreams-reflections/</guid>
       <description>&lt;p&gt;저는 부끄러움이 많은 관심 종자입니다. 이 책의 감상을 나누고 싶지만, 거절이 무서워 글이라는 방법을 택했습니다. 구분선 아래로, 문장과 감상의 형식이 전개 됩니다. 읽은 날, 내용은 추가될 것입니다. 언젠가 이 내용을 함께 논의 할 수 있기를 소원해 봅니다.&lt;/p&gt;
 &lt;p&gt;2022년 스터디 카페에서 시작하며&lt;/p&gt;
 &lt;hr&gt;
@@ -414,16 +414,16 @@ ATDD with Spring 강의를 시작한다는 내용이었습니다.&lt;/p&gt;
     </item>
     <item>
       <title>[경험] 시스템에 불이 확, 나는 왁</title>
-      <link>https://heozeop.github.io/post/when-fire-on-the-external-system/</link>
+      <link>https://blog.heozeop.kr/post/when-fire-on-the-external-system/</link>
       <pubDate>Fri, 28 Oct 2022 21:31:00 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/when-fire-on-the-external-system/</guid>
+      <guid>https://blog.heozeop.kr/post/when-fire-on-the-external-system/</guid>
       <description>아쉬운 에러 대응 과정을 기록해 봅니다.</description>
     </item>
     <item>
       <title>의식적으로 쓰기 - 선언과 단언</title>
-      <link>https://heozeop.github.io/post/typescript-type-assignment/</link>
+      <link>https://blog.heozeop.kr/post/typescript-type-assignment/</link>
       <pubDate>Wed, 19 Oct 2022 22:31:04 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/typescript-type-assignment/</guid>
+      <guid>https://blog.heozeop.kr/post/typescript-type-assignment/</guid>
       <description>&lt;h1 id=&#34;들어가며&#34;&gt;들어가며&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Typescript에선 변수에 type을 어떻게 할당하나요?&lt;/p&gt;
@@ -434,9 +434,9 @@ ATDD with Spring 강의를 시작한다는 내용이었습니다.&lt;/p&gt;
     </item>
     <item>
       <title>[개발/RPC] 무에서 gRPC개념 쌓기</title>
-      <link>https://heozeop.github.io/post/overviewing-grpc-concepts/</link>
+      <link>https://blog.heozeop.kr/post/overviewing-grpc-concepts/</link>
       <pubDate>Sun, 16 Oct 2022 16:13:21 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/overviewing-grpc-concepts/</guid>
+      <guid>https://blog.heozeop.kr/post/overviewing-grpc-concepts/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;notice&lt;/p&gt;
@@ -480,58 +480,58 @@ ATDD with Spring 강의를 시작한다는 내용이었습니다.&lt;/p&gt;
     </item>
     <item>
       <title>[OS] 운영체제란?</title>
-      <link>https://heozeop.github.io/post/role-of-operating-system/</link>
+      <link>https://blog.heozeop.kr/post/role-of-operating-system/</link>
       <pubDate>Sun, 03 Jul 2022 21:17:44 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/role-of-operating-system/</guid>
+      <guid>https://blog.heozeop.kr/post/role-of-operating-system/</guid>
       <description>운영체제의 정의와 역할을 알아봅니다.</description>
     </item>
     <item>
       <title>[경험] 오픈소스에 PR 해본 썰</title>
-      <link>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</link>
+      <link>https://blog.heozeop.kr/post/learn-and-feel-from-simple-opensource-contribution/</link>
       <pubDate>Tue, 10 Aug 2021 21:16:03 +0000</pubDate>
-      <guid>https://heozeop.github.io/post/learn-and-feel-from-simple-opensource-contribution/</guid>
+      <guid>https://blog.heozeop.kr/post/learn-and-feel-from-simple-opensource-contribution/</guid>
       <description>DefinitelyTyped에 라이브러리 타입을 올려보고, chakra ui에 pr을 올리며(아직 진행 중) 느낀점을 간단히 소개합니다.</description>
     </item>
     <item>
       <title>[CSS] CSS 기본 컨셉과 규칙 충돌</title>
-      <link>https://heozeop.github.io/post/css-basic-concept/</link>
+      <link>https://blog.heozeop.kr/post/css-basic-concept/</link>
       <pubDate>Mon, 04 Jan 2021 18:01:03 +0000</pubDate>
-      <guid>https://heozeop.github.io/post/css-basic-concept/</guid>
+      <guid>https://blog.heozeop.kr/post/css-basic-concept/</guid>
       <description>CSS 규칙 충돌에 대비해서 Inheritance, Specificity, Cascading을 알아봅니다.</description>
     </item>
     <item>
       <title>[CSS] CSS? 그게 뭔데?</title>
-      <link>https://heozeop.github.io/post/css-what-is-that/</link>
+      <link>https://blog.heozeop.kr/post/css-what-is-that/</link>
       <pubDate>Sun, 03 Jan 2021 23:01:03 +0000</pubDate>
-      <guid>https://heozeop.github.io/post/css-what-is-that/</guid>
+      <guid>https://blog.heozeop.kr/post/css-what-is-that/</guid>
       <description>css의 정의를 알아봅니다.</description>
     </item>
     <item>
       <title>[경험] 사이트 로딩속도가 이 번들때문에 느려요!</title>
-      <link>https://heozeop.github.io/post/too-big-bundle-size/</link>
+      <link>https://blog.heozeop.kr/post/too-big-bundle-size/</link>
       <pubDate>Sun, 03 Jan 2021 13:45:03 +0000</pubDate>
-      <guid>https://heozeop.github.io/post/too-big-bundle-size/</guid>
+      <guid>https://blog.heozeop.kr/post/too-big-bundle-size/</guid>
       <description>초보 개발자의 살떨렸던 3시간</description>
     </item>
     <item>
       <title>[HTML] HTML body?</title>
-      <link>https://heozeop.github.io/post/html-body/</link>
+      <link>https://blog.heozeop.kr/post/html-body/</link>
       <pubDate>Sat, 02 Jan 2021 15:01:03 +0000</pubDate>
-      <guid>https://heozeop.github.io/post/html-body/</guid>
+      <guid>https://blog.heozeop.kr/post/html-body/</guid>
       <description>html의 body를 알자.</description>
     </item>
     <item>
       <title>[HTML] HTML head? 뭐더라...?</title>
-      <link>https://heozeop.github.io/post/html-head/</link>
+      <link>https://blog.heozeop.kr/post/html-head/</link>
       <pubDate>Fri, 01 Jan 2021 15:24:03 +0000</pubDate>
-      <guid>https://heozeop.github.io/post/html-head/</guid>
+      <guid>https://blog.heozeop.kr/post/html-head/</guid>
       <description>HTML head태그를 알자.</description>
     </item>
     <item>
       <title>[HTML] HTML? 설명해보자</title>
-      <link>https://heozeop.github.io/post/html-definition/</link>
+      <link>https://blog.heozeop.kr/post/html-definition/</link>
       <pubDate>Wed, 30 Dec 2020 22:12:03 +0000</pubDate>
-      <guid>https://heozeop.github.io/post/html-definition/</guid>
+      <guid>https://blog.heozeop.kr/post/html-definition/</guid>
       <description>html의 정의와 기본 속성.</description>
     </item>
   </channel>

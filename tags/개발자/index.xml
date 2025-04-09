@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>개발자 on Crispy bLog</title>
-    <link>https://heozeop.github.io/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</link>
+    <link>https://blog.heozeop.kr/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</link>
     <description>Recent content in 개발자 on Crispy bLog</description>
     <image>
       <title>Crispy bLog</title>
-      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
-      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+      <url>https://blog.heozeop.kr/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://blog.heozeop.kr/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- 0.140.1</generator>
     <language>en</language>
     <lastBuildDate>Thu, 05 Oct 2023 07:19:49 +0900</lastBuildDate>
-    <atom:link href="https://heozeop.github.io/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.heozeop.kr/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>디테일을 챙기는 개발자가 되고 싶어 하는 고찰</title>
-      <link>https://heozeop.github.io/post/detailed-developer/</link>
+      <link>https://blog.heozeop.kr/post/detailed-developer/</link>
       <pubDate>Thu, 05 Oct 2023 07:19:49 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/detailed-developer/</guid>
+      <guid>https://blog.heozeop.kr/post/detailed-developer/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;저는 디테일을 잘 못챙깁니다.&lt;/li&gt;
@@ -34,9 +34,9 @@
     </item>
     <item>
       <title>어떤 개발자가 되고 싶은지에 관한 고찰</title>
-      <link>https://heozeop.github.io/post/i-wanna-be/</link>
+      <link>https://blog.heozeop.kr/post/i-wanna-be/</link>
       <pubDate>Wed, 30 Aug 2023 21:59:51 +0900</pubDate>
-      <guid>https://heozeop.github.io/post/i-wanna-be/</guid>
+      <guid>https://blog.heozeop.kr/post/i-wanna-be/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;상상해 보았습니다.

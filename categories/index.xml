@@ -2,113 +2,113 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Crispy bLog</title>
-    <link>https://heozeop.github.io/categories/</link>
+    <link>https://blog.heozeop.kr/categories/</link>
     <description>Recent content in Categories on Crispy bLog</description>
     <image>
       <title>Crispy bLog</title>
-      <url>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
-      <link>https://heozeop.github.io/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+      <url>https://blog.heozeop.kr/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://blog.heozeop.kr/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
     </image>
     <generator>Hugo -- 0.140.1</generator>
     <language>en</language>
     <lastBuildDate>Wed, 25 Dec 2024 23:10:42 +0900</lastBuildDate>
-    <atom:link href="https://heozeop.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.heozeop.kr/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nodejs</title>
-      <link>https://heozeop.github.io/categories/nodejs/</link>
+      <link>https://blog.heozeop.kr/categories/nodejs/</link>
       <pubDate>Wed, 25 Dec 2024 23:10:42 +0900</pubDate>
-      <guid>https://heozeop.github.io/categories/nodejs/</guid>
+      <guid>https://blog.heozeop.kr/categories/nodejs/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>https://heozeop.github.io/categories/java/</link>
+      <link>https://blog.heozeop.kr/categories/java/</link>
       <pubDate>Sat, 16 Mar 2024 21:25:46 +0900</pubDate>
-      <guid>https://heozeop.github.io/categories/java/</guid>
+      <guid>https://blog.heozeop.kr/categories/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Experience</title>
-      <link>https://heozeop.github.io/categories/experience/</link>
+      <link>https://blog.heozeop.kr/categories/experience/</link>
       <pubDate>Sun, 10 Mar 2024 21:07:19 +0900</pubDate>
-      <guid>https://heozeop.github.io/categories/experience/</guid>
+      <guid>https://blog.heozeop.kr/categories/experience/</guid>
       <description></description>
     </item>
     <item>
       <title>AWS</title>
-      <link>https://heozeop.github.io/categories/aws/</link>
+      <link>https://blog.heozeop.kr/categories/aws/</link>
       <pubDate>Thu, 01 Feb 2024 18:22:58 +0900</pubDate>
-      <guid>https://heozeop.github.io/categories/aws/</guid>
+      <guid>https://blog.heozeop.kr/categories/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>Book</title>
-      <link>https://heozeop.github.io/categories/book/</link>
+      <link>https://blog.heozeop.kr/categories/book/</link>
       <pubDate>Fri, 19 Jan 2024 13:11:06 +0900</pubDate>
-      <guid>https://heozeop.github.io/categories/book/</guid>
+      <guid>https://blog.heozeop.kr/categories/book/</guid>
       <description></description>
     </item>
     <item>
       <title>개발</title>
-      <link>https://heozeop.github.io/categories/%EA%B0%9C%EB%B0%9C/</link>
+      <link>https://blog.heozeop.kr/categories/%EA%B0%9C%EB%B0%9C/</link>
       <pubDate>Tue, 26 Dec 2023 20:02:34 +0900</pubDate>
-      <guid>https://heozeop.github.io/categories/%EA%B0%9C%EB%B0%9C/</guid>
+      <guid>https://blog.heozeop.kr/categories/%EA%B0%9C%EB%B0%9C/</guid>
       <description></description>
     </item>
     <item>
       <title>PostgreSQL</title>
-      <link>https://heozeop.github.io/categories/postgresql/</link>
+      <link>https://blog.heozeop.kr/categories/postgresql/</link>
       <pubDate>Tue, 26 Dec 2023 19:50:50 +0900</pubDate>
-      <guid>https://heozeop.github.io/categories/postgresql/</guid>
+      <guid>https://blog.heozeop.kr/categories/postgresql/</guid>
       <description></description>
     </item>
     <item>
       <title>Thought</title>
-      <link>https://heozeop.github.io/categories/thought/</link>
+      <link>https://blog.heozeop.kr/categories/thought/</link>
       <pubDate>Thu, 05 Oct 2023 07:19:49 +0900</pubDate>
-      <guid>https://heozeop.github.io/categories/thought/</guid>
+      <guid>https://blog.heozeop.kr/categories/thought/</guid>
       <description></description>
     </item>
     <item>
       <title>NestJS</title>
-      <link>https://heozeop.github.io/categories/nestjs/</link>
+      <link>https://blog.heozeop.kr/categories/nestjs/</link>
       <pubDate>Thu, 06 Jul 2023 21:36:00 +0900</pubDate>
-      <guid>https://heozeop.github.io/categories/nestjs/</guid>
+      <guid>https://blog.heozeop.kr/categories/nestjs/</guid>
       <description></description>
     </item>
     <item>
       <title>Typescript</title>
-      <link>https://heozeop.github.io/categories/typescript/</link>
+      <link>https://blog.heozeop.kr/categories/typescript/</link>
       <pubDate>Wed, 19 Oct 2022 22:31:04 +0900</pubDate>
-      <guid>https://heozeop.github.io/categories/typescript/</guid>
+      <guid>https://blog.heozeop.kr/categories/typescript/</guid>
       <description></description>
     </item>
     <item>
       <title>GRPC</title>
-      <link>https://heozeop.github.io/categories/grpc/</link>
+      <link>https://blog.heozeop.kr/categories/grpc/</link>
       <pubDate>Sun, 16 Oct 2022 16:13:21 +0900</pubDate>
-      <guid>https://heozeop.github.io/categories/grpc/</guid>
+      <guid>https://blog.heozeop.kr/categories/grpc/</guid>
       <description></description>
     </item>
     <item>
       <title>Os</title>
-      <link>https://heozeop.github.io/categories/os/</link>
+      <link>https://blog.heozeop.kr/categories/os/</link>
       <pubDate>Sun, 03 Jul 2022 21:17:44 +0900</pubDate>
-      <guid>https://heozeop.github.io/categories/os/</guid>
+      <guid>https://blog.heozeop.kr/categories/os/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
-      <link>https://heozeop.github.io/categories/css/</link>
+      <link>https://blog.heozeop.kr/categories/css/</link>
       <pubDate>Mon, 04 Jan 2021 18:01:03 +0000</pubDate>
-      <guid>https://heozeop.github.io/categories/css/</guid>
+      <guid>https://blog.heozeop.kr/categories/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>https://heozeop.github.io/categories/html/</link>
+      <link>https://blog.heozeop.kr/categories/html/</link>
       <pubDate>Sat, 02 Jan 2021 15:01:03 +0000</pubDate>
-      <guid>https://heozeop.github.io/categories/html/</guid>
+      <guid>https://blog.heozeop.kr/categories/html/</guid>
       <description></description>
     </item>
   </channel>
