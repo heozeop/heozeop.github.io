@@ -15,9 +15,9 @@
     <atom:link href="https://blog.heozeop.kr/tags/image-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[리뷰] BiRefNet (1회독)</title>
-      <link>https://blog.heozeop.kr/post/review-birefnet/</link>
+      <link>https://blog.heozeop.kr/post/review-birefnet-1/</link>
       <pubDate>Sat, 19 Apr 2025 20:06:33 +0900</pubDate>
-      <guid>https://blog.heozeop.kr/post/review-birefnet/</guid>
+      <guid>https://blog.heozeop.kr/post/review-birefnet-1/</guid>
       <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;BiRefNet 논문을 1회 읽어 보았다.&lt;/li&gt;
