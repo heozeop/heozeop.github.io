@@ -11,8 +11,24 @@
     </image>
     <generator>Hugo -- 0.140.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Dec 2024 23:10:42 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2024 11:35:51 +0900</lastBuildDate>
     <atom:link href="https://blog.heozeop.kr/categories/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Map의 Resize 비용은 정말 클까</title>
+      <link>https://blog.heozeop.kr/post/is-resize-cost-big/</link>
+      <pubDate>Sat, 28 Dec 2024 11:35:51 +0900</pubDate>
+      <guid>https://blog.heozeop.kr/post/is-resize-cost-big/</guid>
+      <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;100만개의 item에 대해서 Map을 활용해 자료구조의 resizing 비용이 큰지 비교하는 간단한 실험입니다.&lt;/li&gt;
+&lt;li&gt;실험이 적절하지 않아 resize 비용이 속도에 영향을 주는 정도인지는 알 수 없었습니다.&lt;/li&gt;
+&lt;li&gt;Map을 초기에 intialize해서 resize를 1번 일으키는 것보다 그냥 매번 resize를 일으키되 찾는 연산을 작은 데이터 셋에서 하는게 더 좋다는 것만 알게 되었습니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;resizing을-줄이는게-의미-있을까&#34;&gt;Resizing을 줄이는게 의미 있을까?&lt;/h1&gt;
+&lt;h2 id=&#34;뭔말이여&#34;&gt;뭔말이여&lt;/h2&gt;
+&lt;h3 id=&#34;100만개의-데이터를-돌리는데-resizing-비용이-아까웠다&#34;&gt;100만개의 데이터를 돌리는데 Resizing 비용이 아까웠다.&lt;/h3&gt;
+&lt;p&gt;[지난 실험][1]에서 백만개 item으로 구성된 json array에 대한 uniqueBy를 수행하면서, resizing 비용이 클거라는 생각에 직접 구현을 고민 했었습니다. 하지만 정말로 큰게 맞을까요? chatGPT에게 물어보니 초기에 값을 넣어주는 방식을 채택하면 resize에 들어가는 비용이 줄어든다고 하더군요. 합리적인 말이라고 생각해서 실험해보기로 했습니다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>100만개 item을 가장 빠르게 필터링하는 unique by를 만들어 보자</title>
       <link>https://blog.heozeop.kr/post/fastest-uniqueby/</link>

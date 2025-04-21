@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.heozeop.kr/post/review-birefnet/</loc>
+    <lastmod>2025-04-19T20:06:33+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.heozeop.kr/categories/ai/</loc>
+    <lastmod>2025-04-19T20:06:33+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.heozeop.kr/categories/</loc>
+    <lastmod>2025-04-19T20:06:33+09:00</lastmod>
+  </url><url>
     <loc>https://blog.heozeop.kr/</loc>
-    <lastmod>2024-12-28T11:35:51+09:00</lastmod>
+    <lastmod>2025-04-19T20:06:33+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.heozeop.kr/tags/image-model/</loc>
+    <lastmod>2025-04-19T20:06:33+09:00</lastmod>
   </url><url>
     <loc>https://blog.heozeop.kr/post/</loc>
+    <lastmod>2025-04-19T20:06:33+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.heozeop.kr/tags/</loc>
+    <lastmod>2025-04-19T20:06:33+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.heozeop.kr/post/is-resize-cost-big/</loc>
+    <lastmod>2024-12-28T11:35:51+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.heozeop.kr/tags/nodejs/</loc>
+    <lastmod>2024-12-28T11:35:51+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.heozeop.kr/categories/nodejs/</loc>
     <lastmod>2024-12-28T11:35:51+09:00</lastmod>
   </url><url>
     <loc>https://blog.heozeop.kr/post/fastest-uniqueby/</loc>
-    <lastmod>2024-12-25T23:10:42+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.heozeop.kr/categories/</loc>
-    <lastmod>2024-12-25T23:10:42+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.heozeop.kr/tags/nodejs/</loc>
-    <lastmod>2024-12-25T23:10:42+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.heozeop.kr/categories/nodejs/</loc>
-    <lastmod>2024-12-25T23:10:42+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.heozeop.kr/tags/</loc>
     <lastmod>2024-12-25T23:10:42+09:00</lastmod>
   </url><url>
     <loc>https://blog.heozeop.kr/post/node-batch-job/</loc>

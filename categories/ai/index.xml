@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Crispy bLog</title>
+    <link>https://blog.heozeop.kr/categories/ai/</link>
+    <description>Recent content in AI on Crispy bLog</description>
+    <image>
+      <title>Crispy bLog</title>
+      <url>https://blog.heozeop.kr/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</url>
+      <link>https://blog.heozeop.kr/static/%ED%94%84%EB%A1%9C%ED%95%84%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpeg</link>
+    </image>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Apr 2025 20:06:33 +0900</lastBuildDate>
+    <atom:link href="https://blog.heozeop.kr/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[리뷰] BiRefNet (1회독)</title>
+      <link>https://blog.heozeop.kr/post/review-birefnet/</link>
+      <pubDate>Sat, 19 Apr 2025 20:06:33 +0900</pubDate>
+      <guid>https://blog.heozeop.kr/post/review-birefnet/</guid>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;BiRefNet 논문을 1회 읽어 보았다.&lt;/li&gt;
+&lt;li&gt;읽기도 벅찼다.&lt;/li&gt;
+&lt;li&gt;다음에 읽을게 많다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;birefnet&#34;&gt;BiRefNet&lt;/h2&gt;
+&lt;h3 id=&#34;정보&#34;&gt;정보&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;논문 제목: Bilateral Reference for High-Resolution Dichotomous Image Segmentation&lt;/li&gt;
+&lt;li&gt;저자: Peng Zheng, Dehong Gao, Deng-Ping Fan, Li Liu, Jorma Laaksonen, Wanli Ouyang, Nicu Sebe&lt;/li&gt;
+&lt;li&gt;링크: &lt;a href=&#34;https://arxiv.org/pdf/2401.03407&#34;&gt;https://arxiv.org/pdf/2401.03407&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;목적&#34;&gt;목적&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;고해상도 이진 이미지 분할(DIS, Dichotomous Image Segmentation)&lt;/li&gt;
+&lt;li&gt;기존 모델(&lt;a href=&#34;https://arxiv.org/abs/2111.14482&#34; title=&#34;High Quality Segmentation for Ultra High-resolution Images&#34;&gt;1&lt;/a&gt;, &lt;a href=&#34;https://ieeexplore.ieee.org/document/4767837&#34; title=&#34;A Pyramid-Based Approach to Segmentation Applied to Region Matching&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/abs/1704.08545&#34; title=&#34;ICNet for Real-Time Semantic Segmentation on High-Resolution Images&#34;&gt;3&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/abs/2209.09475&#34; title=&#34;Revisiting Image Pyramid Structure for High Resolution Salient Object Detection&#34;&gt;4&lt;/a&gt;, &lt;a href=&#34;https://www.ijcai.org/proceedings/2023/0124.pdf&#34; title=&#34;Locate, Refine and Restore: A Progressive Enhancement Network for Camouflaged Object Detection&#34;&gt;5&lt;/a&gt;)는 배경과 비슷한 경계 등을 잘 분리하지 못하는 한계가 있었음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;핵심-아이디어&#34;&gt;핵심 아이디어&lt;/h3&gt;
+&lt;p&gt;분리된 localization module과 reconsturction module을 사용해 높은 해상도의 이미지 DIS를 진행한다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

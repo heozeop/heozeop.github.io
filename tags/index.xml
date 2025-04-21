@@ -11,12 +11,19 @@
     </image>
     <generator>Hugo -- 0.140.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Dec 2024 23:10:42 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 19 Apr 2025 20:06:33 +0900</lastBuildDate>
     <atom:link href="https://blog.heozeop.kr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Image Model</title>
+      <link>https://blog.heozeop.kr/tags/image-model/</link>
+      <pubDate>Sat, 19 Apr 2025 20:06:33 +0900</pubDate>
+      <guid>https://blog.heozeop.kr/tags/image-model/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Nodejs</title>
       <link>https://blog.heozeop.kr/tags/nodejs/</link>
-      <pubDate>Wed, 25 Dec 2024 23:10:42 +0900</pubDate>
+      <pubDate>Sat, 28 Dec 2024 11:35:51 +0900</pubDate>
       <guid>https://blog.heozeop.kr/tags/nodejs/</guid>
       <description></description>
     </item>
